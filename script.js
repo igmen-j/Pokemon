@@ -27,9 +27,12 @@ const CHART = {
 
 let POKEMON = {};
 
-function normalizeImagePath(path) {
-  // Converts Windows-style paths from the JSON into browser-safe URLs.
+function normalizePath(path) {
   return path.replaceAll("\\", "/");
+}
+
+function typeImage(type, className = "type-img") {
+  return `<img class="${className}" src="data/types/${type}.png" alt="${type}" title="${type}">`;
 }
 
 function effectiveness(attackType, defenderTypes) {
@@ -45,7 +48,7 @@ function defensiveProfile(types) {
   );
 }
 
-function buildSlots() {
+function buildPokemonSlots() {
   const container = document.getElementById("slots");
   const pokemonList = Object.values(POKEMON).sort((a, b) => a.dex - b.dex);
 
@@ -77,10 +80,79 @@ function buildSlots() {
   }
 }
 
-function analyze(team) {
+function buildMoveSlots() {
+  const container = document.getElementById("move-slots");
+
+  for (let pokemonNumber = 1; pokemonNumber <= 6; pokemonNumber++) {
+    const wrapper = document.createElement("div");
+    wrapper.className = "move-slot";
+
+    const label = document.createElement("label");
+    label.textContent = `Pokémon ${pokemonNumber} move types`;
+
+    const moveInputs = document.createElement("div");
+    moveInputs.className = "move-inputs";
+
+    for (let moveNumber = 1; moveNumber <= 4; moveNumber++) {
+      const select = document.createElement("select");
+      select.name = `move${pokemonNumber}_${moveNumber}`;
+
+      const blank = document.createElement("option");
+      blank.value = "";
+      blank.textContent = "Move type";
+      select.append(blank);
+
+      for (const type of TYPES) {
+        const option = document.createElement("option");
+        option.value = type;
+        option.textContent = type;
+        select.append(option);
+      }
+
+      moveInputs.append(select);
+    }
+
+    label.append(moveInputs);
+    wrapper.append(label);
+    container.append(wrapper);
+  }
+}
+
+function getSelectedTeam() {
+  const team = [];
+
+  for (let i = 1; i <= 6; i++) {
+    const selectedName = document.forms[0][`pokemon${i}`].value;
+    const member = POKEMON[selectedName];
+
+    if (member) team.push(member);
+  }
+
+  return team;
+}
+
+function getSelectedMoveTypes() {
+  const moveTypes = [];
+
+  for (let pokemonNumber = 1; pokemonNumber <= 6; pokemonNumber++) {
+    const memberMoves = [];
+
+    for (let moveNumber = 1; moveNumber <= 4; moveNumber++) {
+      const selected = document.forms[0][`move${pokemonNumber}_${moveNumber}`].value;
+
+      if (selected) memberMoves.push(selected);
+    }
+
+    moveTypes.push(memberMoves);
+  }
+
+  return moveTypes;
+}
+
+function analyzeDefense(team) {
   const coverage = Object.fromEntries(
-    TYPES.map((type) => [
-      type,
+    TYPES.map((attackType) => [
+      attackType,
       { weak: 0, resist: 0, immune: 0, details: [] }
     ])
   );
@@ -109,45 +181,83 @@ function analyze(team) {
   return coverage;
 }
 
-function render(team) {
-  const results = document.getElementById("results");
-  const teamList = document.getElementById("team-list");
-  const tbody = document.getElementById("coverage-body");
+function analyzeOffense(moveTypes) {
+  const coverage = Object.fromEntries(
+    TYPES.map((attackType) => [
+      attackType,
+      {
+        users: 0,
+        superEffective: [],
+        notVeryEffective: [],
+        noEffect: []
+      }
+    ])
+  );
 
+  const selectedTypes = new Set(moveTypes.flat());
+
+  for (const attackType of TYPES) {
+    coverage[attackType].users = moveTypes.filter(
+      (moves) => moves.includes(attackType)
+    ).length;
+
+    if (!selectedTypes.has(attackType)) continue;
+
+    for (const defenseType of TYPES) {
+      const multiplier = effectiveness(attackType, [defenseType]);
+
+      if (multiplier === 0) {
+        coverage[attackType].noEffect.push(defenseType);
+      } else if (multiplier > 1) {
+        coverage[attackType].superEffective.push(defenseType);
+      } else if (multiplier < 1) {
+        coverage[attackType].notVeryEffective.push(defenseType);
+      }
+    }
+  }
+
+  return coverage;
+}
+
+function renderTeam(team) {
+  const teamList = document.getElementById("team-list");
   teamList.innerHTML = "";
-  tbody.innerHTML = "";
-  results.hidden = false;
 
   for (const member of team) {
     const card = document.createElement("div");
     card.className = "team-card";
 
     const img = document.createElement("img");
-    img.src = normalizeImagePath(member.img);
+    img.src = normalizePath(member.img);
     img.alt = member.name;
     img.loading = "lazy";
 
     const info = document.createElement("div");
     info.innerHTML = `
-      <strong>${member.name}</strong>
-      <small>#${String(member.dex).padStart(4, "0")}</small>
+      <span class="pokemon-name">${member.name}</span>
+      <span class="pokemon-dex">#${String(member.dex).padStart(4, "0")}</span>
       <div class="type-row">
-        ${member.types.map((type) => `<span class="type ${type}">${type}</span>`).join("")}
+        ${member.types.map((type) => typeImage(type)).join("")}
       </div>
     `;
 
     card.append(img, info);
     teamList.append(card);
   }
+}
 
-  const coverage = analyze(team);
+function renderDefense(team) {
+  const tbody = document.getElementById("coverage-body");
+  tbody.innerHTML = "";
 
-  for (const type of TYPES) {
-    const data = coverage[type];
+  const coverage = analyzeDefense(team);
+
+  for (const attackType of TYPES) {
+    const data = coverage[attackType];
     const row = document.createElement("tr");
 
     row.innerHTML = `
-      <td><span class="type ${type}">${type}</span></td>
+      <td><div class="type-cell">${typeImage(attackType)}</div></td>
       <td class="${data.weak >= 3 ? "bad" : ""}">${data.weak}</td>
       <td class="${data.resist >= 3 ? "good" : ""}">${data.resist}</td>
       <td class="${data.immune ? "immune" : ""}">${data.immune}</td>
@@ -158,31 +268,60 @@ function render(team) {
   }
 }
 
+function renderOffense(moveTypes) {
+  const tbody = document.getElementById("offense-body");
+  tbody.innerHTML = "";
+
+  const coverage = analyzeOffense(moveTypes);
+
+  for (const attackType of TYPES) {
+    const data = coverage[attackType];
+    const row = document.createElement("tr");
+
+    const formatTypes = (types) =>
+      types.length
+        ? types.map((type) => typeImage(type)).join(" ")
+        : "—";
+
+    row.innerHTML = `
+      <td><div class="type-cell">${typeImage(attackType)}</div></td>
+      <td class="${data.users ? "good" : ""}">${data.users}</td>
+      <td class="details">${formatTypes(data.superEffective)}</td>
+      <td class="details">${formatTypes(data.notVeryEffective)}</td>
+      <td class="details">${formatTypes(data.noEffect)}</td>
+    `;
+
+    tbody.append(row);
+  }
+}
+
 document.getElementById("team-form").addEventListener("submit", (event) => {
   event.preventDefault();
 
-  const team = [];
+  const team = getSelectedTeam();
+  const moveTypes = getSelectedMoveTypes();
 
-  for (let i = 1; i <= 6; i++) {
-    const selectedName = document.forms[0][`pokemon${i}`].value;
-    const member = POKEMON[selectedName];
+  document.getElementById("results").hidden = false;
 
-    if (member) team.push(member);
-  }
-
-  render(team);
+  renderTeam(team);
+  renderOffense(moveTypes);
+  renderDefense(team);
 });
 
-fetch("./data/pokemon.json")
+fetch("data/pokemon.json")
   .then((response) => {
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    if (!response.ok) {
+      throw new Error(`Could not load pokemon.json: HTTP ${response.status}`);
+    }
+
     return response.json();
   })
   .then((data) => {
     POKEMON = data;
-    buildSlots();
+    buildPokemonSlots();
+    buildMoveSlots();
   })
   .catch((error) => {
     console.error(error);
-    alert("Could not load data/pokemon.json. Check that it is committed and the path is correct.");
+    alert("Could not load data/pokemon.json. Verify the file path and that it is committed to the repository.");
   });
