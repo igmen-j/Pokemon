@@ -173,7 +173,7 @@ document.getElementById("team-form").addEventListener("submit", (event) => {
   render(team);
 });
 
-fetch("data/pokemon.json")
+fetch("./data/pokemon.json")
   .then((response) => {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return response.json();
