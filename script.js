@@ -31,8 +31,8 @@ function normalizePath(path) {
   return path.replaceAll("\\", "/");
 }
 
-function typeImage(type, className = "type-img") {
-  return `<img class="${className}" src="data/types/${type}.png" alt="${type}" title="${type}">`;
+function typeImage(type) {
+  return `<img class="type-img" src="data/types/${type}.png" alt="${type}" title="${type}">`;
 }
 
 function effectiveness(attackType, defenderTypes) {
@@ -48,7 +48,7 @@ function defensiveProfile(types) {
   );
 }
 
-function buildPokemonSlots() {
+function buildPokemonSearch() {
   const container = document.getElementById("slots");
   const pokemonList = Object.values(POKEMON).sort((a, b) => a.dex - b.dex);
 
@@ -57,62 +57,28 @@ function buildPokemonSlots() {
     wrapper.className = "slot";
 
     const label = document.createElement("label");
+    label.setAttribute("for", `pokemon${i}`);
     label.textContent = `Pokémon ${i}`;
 
-    const select = document.createElement("select");
-    select.name = `pokemon${i}`;
+    const input = document.createElement("input");
+    input.type = "text";
+    input.id = `pokemon${i}`;
+    input.name = `pokemon${i}`;
+    input.list = `pokemon-list-${i}`;
+    input.placeholder = "Search Pokémon";
+    input.autocomplete = "off";
 
-    const blank = document.createElement("option");
-    blank.value = "";
-    blank.textContent = "— Choose —";
-    select.append(blank);
+    const datalist = document.createElement("datalist");
+    datalist.id = `pokemon-list-${i}`;
 
     for (const pokemon of pokemonList) {
       const option = document.createElement("option");
-      option.value = pokemon.name.toLowerCase();
-      option.textContent = `#${String(pokemon.dex).padStart(4, "0")} ${pokemon.name}`;
-      select.append(option);
+      option.value = pokemon.name;
+      option.label = `#${String(pokemon.dex).padStart(4, "0")}`;
+      datalist.append(option);
     }
 
-    label.append(select);
-    wrapper.append(label);
-    container.append(wrapper);
-  }
-}
-
-function buildMoveSlots() {
-  const container = document.getElementById("move-slots");
-
-  for (let pokemonNumber = 1; pokemonNumber <= 6; pokemonNumber++) {
-    const wrapper = document.createElement("div");
-    wrapper.className = "move-slot";
-
-    const label = document.createElement("label");
-    label.textContent = `Pokémon ${pokemonNumber} move types`;
-
-    const moveInputs = document.createElement("div");
-    moveInputs.className = "move-inputs";
-
-    for (let moveNumber = 1; moveNumber <= 4; moveNumber++) {
-      const select = document.createElement("select");
-      select.name = `move${pokemonNumber}_${moveNumber}`;
-
-      const blank = document.createElement("option");
-      blank.value = "";
-      blank.textContent = "Move type";
-      select.append(blank);
-
-      for (const type of TYPES) {
-        const option = document.createElement("option");
-        option.value = type;
-        option.textContent = type;
-        select.append(option);
-      }
-
-      moveInputs.append(select);
-    }
-
-    label.append(moveInputs);
+    label.append(input, datalist);
     wrapper.append(label);
     container.append(wrapper);
   }
@@ -122,31 +88,13 @@ function getSelectedTeam() {
   const team = [];
 
   for (let i = 1; i <= 6; i++) {
-    const selectedName = document.forms[0][`pokemon${i}`].value;
-    const member = POKEMON[selectedName];
+    const enteredName = document.forms[0][`pokemon${i}`].value.trim().toLowerCase();
+    const member = POKEMON[enteredName];
 
     if (member) team.push(member);
   }
 
   return team;
-}
-
-function getSelectedMoveTypes() {
-  const moveTypes = [];
-
-  for (let pokemonNumber = 1; pokemonNumber <= 6; pokemonNumber++) {
-    const memberMoves = [];
-
-    for (let moveNumber = 1; moveNumber <= 4; moveNumber++) {
-      const selected = document.forms[0][`move${pokemonNumber}_${moveNumber}`].value;
-
-      if (selected) memberMoves.push(selected);
-    }
-
-    moveTypes.push(memberMoves);
-  }
-
-  return moveTypes;
 }
 
 function analyzeDefense(team) {
@@ -174,44 +122,6 @@ function analyzeDefense(team) {
         coverage[attackType].details.push(
           `${member.name}: ${multiplier === .25 ? "1/4" : "1/2"} resist`
         );
-      }
-    }
-  }
-
-  return coverage;
-}
-
-function analyzeOffense(moveTypes) {
-  const coverage = Object.fromEntries(
-    TYPES.map((attackType) => [
-      attackType,
-      {
-        users: 0,
-        superEffective: [],
-        notVeryEffective: [],
-        noEffect: []
-      }
-    ])
-  );
-
-  const selectedTypes = new Set(moveTypes.flat());
-
-  for (const attackType of TYPES) {
-    coverage[attackType].users = moveTypes.filter(
-      (moves) => moves.includes(attackType)
-    ).length;
-
-    if (!selectedTypes.has(attackType)) continue;
-
-    for (const defenseType of TYPES) {
-      const multiplier = effectiveness(attackType, [defenseType]);
-
-      if (multiplier === 0) {
-        coverage[attackType].noEffect.push(defenseType);
-      } else if (multiplier > 1) {
-        coverage[attackType].superEffective.push(defenseType);
-      } else if (multiplier < 1) {
-        coverage[attackType].notVeryEffective.push(defenseType);
       }
     }
   }
@@ -268,43 +178,13 @@ function renderDefense(team) {
   }
 }
 
-function renderOffense(moveTypes) {
-  const tbody = document.getElementById("offense-body");
-  tbody.innerHTML = "";
-
-  const coverage = analyzeOffense(moveTypes);
-
-  for (const attackType of TYPES) {
-    const data = coverage[attackType];
-    const row = document.createElement("tr");
-
-    const formatTypes = (types) =>
-      types.length
-        ? types.map((type) => typeImage(type)).join(" ")
-        : "—";
-
-    row.innerHTML = `
-      <td><div class="type-cell">${typeImage(attackType)}</div></td>
-      <td class="${data.users ? "good" : ""}">${data.users}</td>
-      <td class="details">${formatTypes(data.superEffective)}</td>
-      <td class="details">${formatTypes(data.notVeryEffective)}</td>
-      <td class="details">${formatTypes(data.noEffect)}</td>
-    `;
-
-    tbody.append(row);
-  }
-}
-
 document.getElementById("team-form").addEventListener("submit", (event) => {
   event.preventDefault();
 
   const team = getSelectedTeam();
-  const moveTypes = getSelectedMoveTypes();
 
   document.getElementById("results").hidden = false;
-
   renderTeam(team);
-  renderOffense(moveTypes);
   renderDefense(team);
 });
 
@@ -318,8 +198,7 @@ fetch("data/pokemon.json")
   })
   .then((data) => {
     POKEMON = data;
-    buildPokemonSlots();
-    buildMoveSlots();
+    buildPokemonSearch();
   })
   .catch((error) => {
     console.error(error);
