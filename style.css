@@ -1,0 +1,110 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  color: #222;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.slots {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+select,
+button {
+  width: 100%;
+  padding: .55rem;
+  border-radius: .4rem;
+  border: 1px solid #aaa;
+}
+
+button {
+  background: #e3350d;
+  color: white;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.team-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.team-card {
+  border: 1px solid #ddd;
+  border-radius: .6rem;
+  padding: .75rem;
+  text-align: center;
+  background: #fafafa;
+}
+
+.team-card img {
+  width: 96px;
+  height: 96px;
+  image-rendering: pixelated;
+}
+
+.type-row {
+  display: flex;
+  justify-content: center;
+  gap: .35rem;
+  margin-top: .4rem;
+}
+
+.type {
+  display: inline-block;
+  padding: .15rem .5rem;
+  border-radius: .3rem;
+  color: white;
+  font-size: .75rem;
+  text-transform: capitalize;
+}
+
+.type.normal { background: #a8a77a; }
+.type.fire { background: #ee8130; }
+.type.water { background: #6390f0; }
+.type.electric { background: #f7d02c; color: #222; }
+.type.grass { background: #7ac74c; }
+.type.ice { background: #96d9d6; color: #222; }
+.type.fighting { background: #c22e28; }
+.type.poison { background: #a33ea1; }
+.type.ground { background: #e2bf65; color: #222; }
+.type.flying { background: #a98ff3; }
+.type.psychic { background: #f95587; }
+.type.bug { background: #a6b91a; }
+.type.rock { background: #b6a136; }
+.type.ghost { background: #735797; }
+.type.dragon { background: #6f35fc; }
+.type.dark { background: #705746; }
+.type.steel { background: #b7b7ce; color: #222; }
+.type.fairy { background: #d685ad; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: .5rem;
+  text-align: center;
+}
+
+.details {
+  text-align: left;
+}
+
+.bad { background: #ffd6d6; }
+.good { background: #d6f5d6; }
+.immune { background: #d6e6ff; }
