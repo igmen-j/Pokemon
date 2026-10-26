@@ -5,36 +5,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Pokémon Team Builder</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <main>
     <h1>Pokémon Team Builder</h1>
 
+    <p class="intro">
+      Search by Pokémon name or Pokédex number. Choose up to six Pokémon.
+    </p>
+
+    <p id="status" role="status">Loading Pokémon…</p>
+
     <form id="team-form">
       <div id="slots" class="slots"></div>
-      <button type="submit">Analyze Team</button>
+
+      <div class="actions">
+        <button id="analyze-button" type="submit" disabled>
+          Analyze Team
+        </button>
+
+        <button id="clear-button" type="button" class="secondary" disabled>
+          Clear Team
+        </button>
+      </div>
     </form>
 
-    <section id="results" hidden>
-      <h2>Selected Team</h2>
-      <div id="team-list" class="team-list"></div>
+    <section id="results" hidden aria-labelledby="coverage-title">
+      <h2 id="coverage-title">Defensive Coverage</h2>
 
-      <h2>Defensive Coverage</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Attacking Type</th>
-            <th>Weak</th>
-            <th>Resist</th>
-            <th>Immune</th>
-            <th>Details</th>
-          </tr>
-        </thead>
-        <tbody id="coverage-body"></tbody>
-      </table>
+      <div class="table-scroll">
+        <table class="coverage-table">
+          <caption class="sr-only">
+            Incoming damage multipliers for each team member.
+          </caption>
+
+          <thead id="coverage-head"></thead>
+          <tbody id="coverage-body"></tbody>
+        </table>
+      </div>
     </section>
   </main>
-
-  <script src="script.js"></script>
 </body>
 </html>
