@@ -1,0 +1,8728 @@
+{
+  "bulbasaur": {
+    "name": "Bulbasaur",
+    "dex": 1,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "img": "data\\sprites\\001.png"
+  },
+  "ivysaur": {
+    "name": "Ivysaur",
+    "dex": 2,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "img": "data\\sprites\\002.png"
+  },
+  "venusaur": {
+    "name": "Venusaur",
+    "dex": 3,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "img": "data\\sprites\\003.png"
+  },
+  "charmander": {
+    "name": "Charmander",
+    "dex": 4,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\004.png"
+  },
+  "charmeleon": {
+    "name": "Charmeleon",
+    "dex": 5,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\005.png"
+  },
+  "charizard": {
+    "name": "Charizard",
+    "dex": 6,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "img": "data\\sprites\\006.png"
+  },
+  "squirtle": {
+    "name": "Squirtle",
+    "dex": 7,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\007.png"
+  },
+  "wartortle": {
+    "name": "Wartortle",
+    "dex": 8,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\008.png"
+  },
+  "blastoise": {
+    "name": "Blastoise",
+    "dex": 9,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\009.png"
+  },
+  "caterpie": {
+    "name": "Caterpie",
+    "dex": 10,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\010.png"
+  },
+  "metapod": {
+    "name": "Metapod",
+    "dex": 11,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\011.png"
+  },
+  "butterfree": {
+    "name": "Butterfree",
+    "dex": 12,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "img": "data\\sprites\\012.png"
+  },
+  "weedle": {
+    "name": "Weedle",
+    "dex": 13,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "img": "data\\sprites\\013.png"
+  },
+  "kakuna": {
+    "name": "Kakuna",
+    "dex": 14,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "img": "data\\sprites\\014.png"
+  },
+  "beedrill": {
+    "name": "Beedrill",
+    "dex": 15,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "img": "data\\sprites\\015.png"
+  },
+  "pidgey": {
+    "name": "Pidgey",
+    "dex": 16,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\016.png"
+  },
+  "pidgeotto": {
+    "name": "Pidgeotto",
+    "dex": 17,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\017.png"
+  },
+  "pidgeot": {
+    "name": "Pidgeot",
+    "dex": 18,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\018.png"
+  },
+  "rattata": {
+    "name": "Rattata",
+    "dex": 19,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\019.png"
+  },
+  "raticate": {
+    "name": "Raticate",
+    "dex": 20,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\020.png"
+  },
+  "spearow": {
+    "name": "Spearow",
+    "dex": 21,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\021.png"
+  },
+  "fearow": {
+    "name": "Fearow",
+    "dex": 22,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\022.png"
+  },
+  "ekans": {
+    "name": "Ekans",
+    "dex": 23,
+    "types": [
+      "poison"
+    ],
+    "img": "data\\sprites\\023.png"
+  },
+  "arbok": {
+    "name": "Arbok",
+    "dex": 24,
+    "types": [
+      "poison"
+    ],
+    "img": "data\\sprites\\024.png"
+  },
+  "pikachu": {
+    "name": "Pikachu",
+    "dex": 25,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\025.png"
+  },
+  "raichu": {
+    "name": "Raichu",
+    "dex": 26,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\026.png"
+  },
+  "sandshrew": {
+    "name": "Sandshrew",
+    "dex": 27,
+    "types": [
+      "ground"
+    ],
+    "img": "data\\sprites\\027.png"
+  },
+  "sandslash": {
+    "name": "Sandslash",
+    "dex": 28,
+    "types": [
+      "ground"
+    ],
+    "img": "data\\sprites\\028.png"
+  },
+  "nidoran♀": {
+    "name": "Nidoran♀",
+    "dex": 29,
+    "types": [
+      "poison"
+    ],
+    "img": "data\\sprites\\029.png"
+  },
+  "nidorina": {
+    "name": "Nidorina",
+    "dex": 30,
+    "types": [
+      "poison"
+    ],
+    "img": "data\\sprites\\030.png"
+  },
+  "nidoqueen": {
+    "name": "Nidoqueen",
+    "dex": 31,
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "img": "data\\sprites\\031.png"
+  },
+  "nidoran♂": {
+    "name": "Nidoran♂",
+    "dex": 32,
+    "types": [
+      "poison"
+    ],
+    "img": "data\\sprites\\032.png"
+  },
+  "nidorino": {
+    "name": "Nidorino",
+    "dex": 33,
+    "types": [
+      "poison"
+    ],
+    "img": "data\\sprites\\033.png"
+  },
+  "nidoking": {
+    "name": "Nidoking",
+    "dex": 34,
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "img": "data\\sprites\\034.png"
+  },
+  "clefairy": {
+    "name": "Clefairy",
+    "dex": 35,
+    "types": [
+      "fairy"
+    ],
+    "img": "data\\sprites\\035.png"
+  },
+  "clefable": {
+    "name": "Clefable",
+    "dex": 36,
+    "types": [
+      "fairy"
+    ],
+    "img": "data\\sprites\\036.png"
+  },
+  "vulpix": {
+    "name": "Vulpix",
+    "dex": 37,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\037.png"
+  },
+  "ninetales": {
+    "name": "Ninetales",
+    "dex": 38,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\038.png"
+  },
+  "jigglypuff": {
+    "name": "Jigglypuff",
+    "dex": 39,
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "img": "data\\sprites\\039.png"
+  },
+  "wigglytuff": {
+    "name": "Wigglytuff",
+    "dex": 40,
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "img": "data\\sprites\\040.png"
+  },
+  "zubat": {
+    "name": "Zubat",
+    "dex": 41,
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "img": "data\\sprites\\041.png"
+  },
+  "golbat": {
+    "name": "Golbat",
+    "dex": 42,
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "img": "data\\sprites\\042.png"
+  },
+  "oddish": {
+    "name": "Oddish",
+    "dex": 43,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "img": "data\\sprites\\043.png"
+  },
+  "gloom": {
+    "name": "Gloom",
+    "dex": 44,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "img": "data\\sprites\\044.png"
+  },
+  "vileplume": {
+    "name": "Vileplume",
+    "dex": 45,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "img": "data\\sprites\\045.png"
+  },
+  "paras": {
+    "name": "Paras",
+    "dex": 46,
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "img": "data\\sprites\\046.png"
+  },
+  "parasect": {
+    "name": "Parasect",
+    "dex": 47,
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "img": "data\\sprites\\047.png"
+  },
+  "venonat": {
+    "name": "Venonat",
+    "dex": 48,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "img": "data\\sprites\\048.png"
+  },
+  "venomoth": {
+    "name": "Venomoth",
+    "dex": 49,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "img": "data\\sprites\\049.png"
+  },
+  "diglett": {
+    "name": "Diglett",
+    "dex": 50,
+    "types": [
+      "ground"
+    ],
+    "img": "data\\sprites\\050.png"
+  },
+  "dugtrio": {
+    "name": "Dugtrio",
+    "dex": 51,
+    "types": [
+      "ground"
+    ],
+    "img": "data\\sprites\\051.png"
+  },
+  "meowth": {
+    "name": "Meowth",
+    "dex": 52,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\052.png"
+  },
+  "persian": {
+    "name": "Persian",
+    "dex": 53,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\053.png"
+  },
+  "psyduck": {
+    "name": "Psyduck",
+    "dex": 54,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\054.png"
+  },
+  "golduck": {
+    "name": "Golduck",
+    "dex": 55,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\055.png"
+  },
+  "mankey": {
+    "name": "Mankey",
+    "dex": 56,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\056.png"
+  },
+  "primeape": {
+    "name": "Primeape",
+    "dex": 57,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\057.png"
+  },
+  "growlithe": {
+    "name": "Growlithe",
+    "dex": 58,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\058.png"
+  },
+  "arcanine": {
+    "name": "Arcanine",
+    "dex": 59,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\059.png"
+  },
+  "poliwag": {
+    "name": "Poliwag",
+    "dex": 60,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\060.png"
+  },
+  "poliwhirl": {
+    "name": "Poliwhirl",
+    "dex": 61,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\061.png"
+  },
+  "poliwrath": {
+    "name": "Poliwrath",
+    "dex": 62,
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "img": "data\\sprites\\062.png"
+  },
+  "abra": {
+    "name": "Abra",
+    "dex": 63,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\063.png"
+  },
+  "kadabra": {
+    "name": "Kadabra",
+    "dex": 64,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\064.png"
+  },
+  "alakazam": {
+    "name": "Alakazam",
+    "dex": 65,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\065.png"
+  },
+  "machop": {
+    "name": "Machop",
+    "dex": 66,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\066.png"
+  },
+  "machoke": {
+    "name": "Machoke",
+    "dex": 67,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\067.png"
+  },
+  "machamp": {
+    "name": "Machamp",
+    "dex": 68,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\068.png"
+  },
+  "bellsprout": {
+    "name": "Bellsprout",
+    "dex": 69,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "img": "data\\sprites\\069.png"
+  },
+  "weepinbell": {
+    "name": "Weepinbell",
+    "dex": 70,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "img": "data\\sprites\\070.png"
+  },
+  "victreebel": {
+    "name": "Victreebel",
+    "dex": 71,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "img": "data\\sprites\\071.png"
+  },
+  "tentacool": {
+    "name": "Tentacool",
+    "dex": 72,
+    "types": [
+      "water",
+      "poison"
+    ],
+    "img": "data\\sprites\\072.png"
+  },
+  "tentacruel": {
+    "name": "Tentacruel",
+    "dex": 73,
+    "types": [
+      "water",
+      "poison"
+    ],
+    "img": "data\\sprites\\073.png"
+  },
+  "geodude": {
+    "name": "Geodude",
+    "dex": 74,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "img": "data\\sprites\\074.png"
+  },
+  "graveler": {
+    "name": "Graveler",
+    "dex": 75,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "img": "data\\sprites\\075.png"
+  },
+  "golem": {
+    "name": "Golem",
+    "dex": 76,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "img": "data\\sprites\\076.png"
+  },
+  "ponyta": {
+    "name": "Ponyta",
+    "dex": 77,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\077.png"
+  },
+  "rapidash": {
+    "name": "Rapidash",
+    "dex": 78,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\078.png"
+  },
+  "slowpoke": {
+    "name": "Slowpoke",
+    "dex": 79,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "img": "data\\sprites\\079.png"
+  },
+  "slowbro": {
+    "name": "Slowbro",
+    "dex": 80,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "img": "data\\sprites\\080.png"
+  },
+  "magnemite": {
+    "name": "Magnemite",
+    "dex": 81,
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "img": "data\\sprites\\081.png"
+  },
+  "magneton": {
+    "name": "Magneton",
+    "dex": 82,
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "img": "data\\sprites\\082.png"
+  },
+  "farfetch'd": {
+    "name": "Farfetch'd",
+    "dex": 83,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\083.png"
+  },
+  "doduo": {
+    "name": "Doduo",
+    "dex": 84,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\084.png"
+  },
+  "dodrio": {
+    "name": "Dodrio",
+    "dex": 85,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\085.png"
+  },
+  "seel": {
+    "name": "Seel",
+    "dex": 86,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\086.png"
+  },
+  "dewgong": {
+    "name": "Dewgong",
+    "dex": 87,
+    "types": [
+      "water",
+      "ice"
+    ],
+    "img": "data\\sprites\\087.png"
+  },
+  "grimer": {
+    "name": "Grimer",
+    "dex": 88,
+    "types": [
+      "poison"
+    ],
+    "img": "data\\sprites\\088.png"
+  },
+  "muk": {
+    "name": "Muk",
+    "dex": 89,
+    "types": [
+      "poison"
+    ],
+    "img": "data\\sprites\\089.png"
+  },
+  "shellder": {
+    "name": "Shellder",
+    "dex": 90,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\090.png"
+  },
+  "cloyster": {
+    "name": "Cloyster",
+    "dex": 91,
+    "types": [
+      "water",
+      "ice"
+    ],
+    "img": "data\\sprites\\091.png"
+  },
+  "gastly": {
+    "name": "Gastly",
+    "dex": 92,
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "img": "data\\sprites\\092.png"
+  },
+  "haunter": {
+    "name": "Haunter",
+    "dex": 93,
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "img": "data\\sprites\\093.png"
+  },
+  "gengar": {
+    "name": "Gengar",
+    "dex": 94,
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "img": "data\\sprites\\094.png"
+  },
+  "onix": {
+    "name": "Onix",
+    "dex": 95,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "img": "data\\sprites\\095.png"
+  },
+  "drowzee": {
+    "name": "Drowzee",
+    "dex": 96,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\096.png"
+  },
+  "hypno": {
+    "name": "Hypno",
+    "dex": 97,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\097.png"
+  },
+  "krabby": {
+    "name": "Krabby",
+    "dex": 98,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\098.png"
+  },
+  "kingler": {
+    "name": "Kingler",
+    "dex": 99,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\099.png"
+  },
+  "voltorb": {
+    "name": "Voltorb",
+    "dex": 100,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\100.png"
+  },
+  "electrode": {
+    "name": "Electrode",
+    "dex": 101,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\101.png"
+  },
+  "exeggcute": {
+    "name": "Exeggcute",
+    "dex": 102,
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "img": "data\\sprites\\102.png"
+  },
+  "exeggutor": {
+    "name": "Exeggutor",
+    "dex": 103,
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "img": "data\\sprites\\103.png"
+  },
+  "cubone": {
+    "name": "Cubone",
+    "dex": 104,
+    "types": [
+      "ground"
+    ],
+    "img": "data\\sprites\\104.png"
+  },
+  "marowak": {
+    "name": "Marowak",
+    "dex": 105,
+    "types": [
+      "ground"
+    ],
+    "img": "data\\sprites\\105.png"
+  },
+  "hitmonlee": {
+    "name": "Hitmonlee",
+    "dex": 106,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\106.png"
+  },
+  "hitmonchan": {
+    "name": "Hitmonchan",
+    "dex": 107,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\107.png"
+  },
+  "lickitung": {
+    "name": "Lickitung",
+    "dex": 108,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\108.png"
+  },
+  "koffing": {
+    "name": "Koffing",
+    "dex": 109,
+    "types": [
+      "poison"
+    ],
+    "img": "data\\sprites\\109.png"
+  },
+  "weezing": {
+    "name": "Weezing",
+    "dex": 110,
+    "types": [
+      "poison"
+    ],
+    "img": "data\\sprites\\110.png"
+  },
+  "rhyhorn": {
+    "name": "Rhyhorn",
+    "dex": 111,
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "img": "data\\sprites\\111.png"
+  },
+  "rhydon": {
+    "name": "Rhydon",
+    "dex": 112,
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "img": "data\\sprites\\112.png"
+  },
+  "chansey": {
+    "name": "Chansey",
+    "dex": 113,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\113.png"
+  },
+  "tangela": {
+    "name": "Tangela",
+    "dex": 114,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\114.png"
+  },
+  "kangaskhan": {
+    "name": "Kangaskhan",
+    "dex": 115,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\115.png"
+  },
+  "horsea": {
+    "name": "Horsea",
+    "dex": 116,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\116.png"
+  },
+  "seadra": {
+    "name": "Seadra",
+    "dex": 117,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\117.png"
+  },
+  "goldeen": {
+    "name": "Goldeen",
+    "dex": 118,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\118.png"
+  },
+  "seaking": {
+    "name": "Seaking",
+    "dex": 119,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\119.png"
+  },
+  "staryu": {
+    "name": "Staryu",
+    "dex": 120,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\120.png"
+  },
+  "starmie": {
+    "name": "Starmie",
+    "dex": 121,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "img": "data\\sprites\\121.png"
+  },
+  "mr. mime": {
+    "name": "Mr. Mime",
+    "dex": 122,
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "img": "data\\sprites\\122.png"
+  },
+  "scyther": {
+    "name": "Scyther",
+    "dex": 123,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "img": "data\\sprites\\123.png"
+  },
+  "jynx": {
+    "name": "Jynx",
+    "dex": 124,
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "img": "data\\sprites\\124.png"
+  },
+  "electabuzz": {
+    "name": "Electabuzz",
+    "dex": 125,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\125.png"
+  },
+  "magmar": {
+    "name": "Magmar",
+    "dex": 126,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\126.png"
+  },
+  "pinsir": {
+    "name": "Pinsir",
+    "dex": 127,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\127.png"
+  },
+  "tauros": {
+    "name": "Tauros",
+    "dex": 128,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\128.png"
+  },
+  "magikarp": {
+    "name": "Magikarp",
+    "dex": 129,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\129.png"
+  },
+  "gyarados": {
+    "name": "Gyarados",
+    "dex": 130,
+    "types": [
+      "water",
+      "flying"
+    ],
+    "img": "data\\sprites\\130.png"
+  },
+  "lapras": {
+    "name": "Lapras",
+    "dex": 131,
+    "types": [
+      "water",
+      "ice"
+    ],
+    "img": "data\\sprites\\131.png"
+  },
+  "ditto": {
+    "name": "Ditto",
+    "dex": 132,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\132.png"
+  },
+  "eevee": {
+    "name": "Eevee",
+    "dex": 133,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\133.png"
+  },
+  "vaporeon": {
+    "name": "Vaporeon",
+    "dex": 134,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\134.png"
+  },
+  "jolteon": {
+    "name": "Jolteon",
+    "dex": 135,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\135.png"
+  },
+  "flareon": {
+    "name": "Flareon",
+    "dex": 136,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\136.png"
+  },
+  "porygon": {
+    "name": "Porygon",
+    "dex": 137,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\137.png"
+  },
+  "omanyte": {
+    "name": "Omanyte",
+    "dex": 138,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "img": "data\\sprites\\138.png"
+  },
+  "omastar": {
+    "name": "Omastar",
+    "dex": 139,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "img": "data\\sprites\\139.png"
+  },
+  "kabuto": {
+    "name": "Kabuto",
+    "dex": 140,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "img": "data\\sprites\\140.png"
+  },
+  "kabutops": {
+    "name": "Kabutops",
+    "dex": 141,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "img": "data\\sprites\\141.png"
+  },
+  "aerodactyl": {
+    "name": "Aerodactyl",
+    "dex": 142,
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "img": "data\\sprites\\142.png"
+  },
+  "snorlax": {
+    "name": "Snorlax",
+    "dex": 143,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\143.png"
+  },
+  "articuno": {
+    "name": "Articuno",
+    "dex": 144,
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "img": "data\\sprites\\144.png"
+  },
+  "zapdos": {
+    "name": "Zapdos",
+    "dex": 145,
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "img": "data\\sprites\\145.png"
+  },
+  "moltres": {
+    "name": "Moltres",
+    "dex": 146,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "img": "data\\sprites\\146.png"
+  },
+  "dratini": {
+    "name": "Dratini",
+    "dex": 147,
+    "types": [
+      "dragon"
+    ],
+    "img": "data\\sprites\\147.png"
+  },
+  "dragonair": {
+    "name": "Dragonair",
+    "dex": 148,
+    "types": [
+      "dragon"
+    ],
+    "img": "data\\sprites\\148.png"
+  },
+  "dragonite": {
+    "name": "Dragonite",
+    "dex": 149,
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "img": "data\\sprites\\149.png"
+  },
+  "mewtwo": {
+    "name": "Mewtwo",
+    "dex": 150,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\150.png"
+  },
+  "mew": {
+    "name": "Mew",
+    "dex": 151,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\151.png"
+  },
+  "chikorita": {
+    "name": "Chikorita",
+    "dex": 152,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\152.png"
+  },
+  "bayleef": {
+    "name": "Bayleef",
+    "dex": 153,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\153.png"
+  },
+  "meganium": {
+    "name": "Meganium",
+    "dex": 154,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\154.png"
+  },
+  "cyndaquil": {
+    "name": "Cyndaquil",
+    "dex": 155,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\155.png"
+  },
+  "quilava": {
+    "name": "Quilava",
+    "dex": 156,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\156.png"
+  },
+  "typhlosion": {
+    "name": "Typhlosion",
+    "dex": 157,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\157.png"
+  },
+  "totodile": {
+    "name": "Totodile",
+    "dex": 158,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\158.png"
+  },
+  "croconaw": {
+    "name": "Croconaw",
+    "dex": 159,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\159.png"
+  },
+  "feraligatr": {
+    "name": "Feraligatr",
+    "dex": 160,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\160.png"
+  },
+  "sentret": {
+    "name": "Sentret",
+    "dex": 161,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\161.png"
+  },
+  "furret": {
+    "name": "Furret",
+    "dex": 162,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\162.png"
+  },
+  "hoothoot": {
+    "name": "Hoothoot",
+    "dex": 163,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\163.png"
+  },
+  "noctowl": {
+    "name": "Noctowl",
+    "dex": 164,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\164.png"
+  },
+  "ledyba": {
+    "name": "Ledyba",
+    "dex": 165,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "img": "data\\sprites\\165.png"
+  },
+  "ledian": {
+    "name": "Ledian",
+    "dex": 166,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "img": "data\\sprites\\166.png"
+  },
+  "spinarak": {
+    "name": "Spinarak",
+    "dex": 167,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "img": "data\\sprites\\167.png"
+  },
+  "ariados": {
+    "name": "Ariados",
+    "dex": 168,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "img": "data\\sprites\\168.png"
+  },
+  "crobat": {
+    "name": "Crobat",
+    "dex": 169,
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "img": "data\\sprites\\169.png"
+  },
+  "chinchou": {
+    "name": "Chinchou",
+    "dex": 170,
+    "types": [
+      "water",
+      "electric"
+    ],
+    "img": "data\\sprites\\170.png"
+  },
+  "lanturn": {
+    "name": "Lanturn",
+    "dex": 171,
+    "types": [
+      "water",
+      "electric"
+    ],
+    "img": "data\\sprites\\171.png"
+  },
+  "pichu": {
+    "name": "Pichu",
+    "dex": 172,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\172.png"
+  },
+  "cleffa": {
+    "name": "Cleffa",
+    "dex": 173,
+    "types": [
+      "fairy"
+    ],
+    "img": "data\\sprites\\173.png"
+  },
+  "igglybuff": {
+    "name": "Igglybuff",
+    "dex": 174,
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "img": "data\\sprites\\174.png"
+  },
+  "togepi": {
+    "name": "Togepi",
+    "dex": 175,
+    "types": [
+      "fairy"
+    ],
+    "img": "data\\sprites\\175.png"
+  },
+  "togetic": {
+    "name": "Togetic",
+    "dex": 176,
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "img": "data\\sprites\\176.png"
+  },
+  "natu": {
+    "name": "Natu",
+    "dex": 177,
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "img": "data\\sprites\\177.png"
+  },
+  "xatu": {
+    "name": "Xatu",
+    "dex": 178,
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "img": "data\\sprites\\178.png"
+  },
+  "mareep": {
+    "name": "Mareep",
+    "dex": 179,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\179.png"
+  },
+  "flaaffy": {
+    "name": "Flaaffy",
+    "dex": 180,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\180.png"
+  },
+  "ampharos": {
+    "name": "Ampharos",
+    "dex": 181,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\181.png"
+  },
+  "bellossom": {
+    "name": "Bellossom",
+    "dex": 182,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\182.png"
+  },
+  "marill": {
+    "name": "Marill",
+    "dex": 183,
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "img": "data\\sprites\\183.png"
+  },
+  "azumarill": {
+    "name": "Azumarill",
+    "dex": 184,
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "img": "data\\sprites\\184.png"
+  },
+  "sudowoodo": {
+    "name": "Sudowoodo",
+    "dex": 185,
+    "types": [
+      "rock"
+    ],
+    "img": "data\\sprites\\185.png"
+  },
+  "politoed": {
+    "name": "Politoed",
+    "dex": 186,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\186.png"
+  },
+  "hoppip": {
+    "name": "Hoppip",
+    "dex": 187,
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "img": "data\\sprites\\187.png"
+  },
+  "skiploom": {
+    "name": "Skiploom",
+    "dex": 188,
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "img": "data\\sprites\\188.png"
+  },
+  "jumpluff": {
+    "name": "Jumpluff",
+    "dex": 189,
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "img": "data\\sprites\\189.png"
+  },
+  "aipom": {
+    "name": "Aipom",
+    "dex": 190,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\190.png"
+  },
+  "sunkern": {
+    "name": "Sunkern",
+    "dex": 191,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\191.png"
+  },
+  "sunflora": {
+    "name": "Sunflora",
+    "dex": 192,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\192.png"
+  },
+  "yanma": {
+    "name": "Yanma",
+    "dex": 193,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "img": "data\\sprites\\193.png"
+  },
+  "wooper": {
+    "name": "Wooper",
+    "dex": 194,
+    "types": [
+      "water",
+      "ground"
+    ],
+    "img": "data\\sprites\\194.png"
+  },
+  "quagsire": {
+    "name": "Quagsire",
+    "dex": 195,
+    "types": [
+      "water",
+      "ground"
+    ],
+    "img": "data\\sprites\\195.png"
+  },
+  "espeon": {
+    "name": "Espeon",
+    "dex": 196,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\196.png"
+  },
+  "umbreon": {
+    "name": "Umbreon",
+    "dex": 197,
+    "types": [
+      "dark"
+    ],
+    "img": "data\\sprites\\197.png"
+  },
+  "murkrow": {
+    "name": "Murkrow",
+    "dex": 198,
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "img": "data\\sprites\\198.png"
+  },
+  "slowking": {
+    "name": "Slowking",
+    "dex": 199,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "img": "data\\sprites\\199.png"
+  },
+  "misdreavus": {
+    "name": "Misdreavus",
+    "dex": 200,
+    "types": [
+      "ghost"
+    ],
+    "img": "data\\sprites\\200.png"
+  },
+  "unown": {
+    "name": "Unown",
+    "dex": 201,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\201.png"
+  },
+  "wobbuffet": {
+    "name": "Wobbuffet",
+    "dex": 202,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\202.png"
+  },
+  "girafarig": {
+    "name": "Girafarig",
+    "dex": 203,
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "img": "data\\sprites\\203.png"
+  },
+  "pineco": {
+    "name": "Pineco",
+    "dex": 204,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\204.png"
+  },
+  "forretress": {
+    "name": "Forretress",
+    "dex": 205,
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "img": "data\\sprites\\205.png"
+  },
+  "dunsparce": {
+    "name": "Dunsparce",
+    "dex": 206,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\206.png"
+  },
+  "gligar": {
+    "name": "Gligar",
+    "dex": 207,
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "img": "data\\sprites\\207.png"
+  },
+  "steelix": {
+    "name": "Steelix",
+    "dex": 208,
+    "types": [
+      "steel",
+      "ground"
+    ],
+    "img": "data\\sprites\\208.png"
+  },
+  "snubbull": {
+    "name": "Snubbull",
+    "dex": 209,
+    "types": [
+      "fairy"
+    ],
+    "img": "data\\sprites\\209.png"
+  },
+  "granbull": {
+    "name": "Granbull",
+    "dex": 210,
+    "types": [
+      "fairy"
+    ],
+    "img": "data\\sprites\\210.png"
+  },
+  "qwilfish": {
+    "name": "Qwilfish",
+    "dex": 211,
+    "types": [
+      "water",
+      "poison"
+    ],
+    "img": "data\\sprites\\211.png"
+  },
+  "scizor": {
+    "name": "Scizor",
+    "dex": 212,
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "img": "data\\sprites\\212.png"
+  },
+  "shuckle": {
+    "name": "Shuckle",
+    "dex": 213,
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "img": "data\\sprites\\213.png"
+  },
+  "heracross": {
+    "name": "Heracross",
+    "dex": 214,
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "img": "data\\sprites\\214.png"
+  },
+  "sneasel": {
+    "name": "Sneasel",
+    "dex": 215,
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "img": "data\\sprites\\215.png"
+  },
+  "teddiursa": {
+    "name": "Teddiursa",
+    "dex": 216,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\216.png"
+  },
+  "ursaring": {
+    "name": "Ursaring",
+    "dex": 217,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\217.png"
+  },
+  "slugma": {
+    "name": "Slugma",
+    "dex": 218,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\218.png"
+  },
+  "magcargo": {
+    "name": "Magcargo",
+    "dex": 219,
+    "types": [
+      "fire",
+      "rock"
+    ],
+    "img": "data\\sprites\\219.png"
+  },
+  "swinub": {
+    "name": "Swinub",
+    "dex": 220,
+    "types": [
+      "ice",
+      "ground"
+    ],
+    "img": "data\\sprites\\220.png"
+  },
+  "piloswine": {
+    "name": "Piloswine",
+    "dex": 221,
+    "types": [
+      "ice",
+      "ground"
+    ],
+    "img": "data\\sprites\\221.png"
+  },
+  "corsola": {
+    "name": "Corsola",
+    "dex": 222,
+    "types": [
+      "water",
+      "rock"
+    ],
+    "img": "data\\sprites\\222.png"
+  },
+  "remoraid": {
+    "name": "Remoraid",
+    "dex": 223,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\223.png"
+  },
+  "octillery": {
+    "name": "Octillery",
+    "dex": 224,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\224.png"
+  },
+  "delibird": {
+    "name": "Delibird",
+    "dex": 225,
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "img": "data\\sprites\\225.png"
+  },
+  "mantine": {
+    "name": "Mantine",
+    "dex": 226,
+    "types": [
+      "water",
+      "flying"
+    ],
+    "img": "data\\sprites\\226.png"
+  },
+  "skarmory": {
+    "name": "Skarmory",
+    "dex": 227,
+    "types": [
+      "steel",
+      "flying"
+    ],
+    "img": "data\\sprites\\227.png"
+  },
+  "houndour": {
+    "name": "Houndour",
+    "dex": 228,
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "img": "data\\sprites\\228.png"
+  },
+  "houndoom": {
+    "name": "Houndoom",
+    "dex": 229,
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "img": "data\\sprites\\229.png"
+  },
+  "kingdra": {
+    "name": "Kingdra",
+    "dex": 230,
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "img": "data\\sprites\\230.png"
+  },
+  "phanpy": {
+    "name": "Phanpy",
+    "dex": 231,
+    "types": [
+      "ground"
+    ],
+    "img": "data\\sprites\\231.png"
+  },
+  "donphan": {
+    "name": "Donphan",
+    "dex": 232,
+    "types": [
+      "ground"
+    ],
+    "img": "data\\sprites\\232.png"
+  },
+  "porygon2": {
+    "name": "Porygon2",
+    "dex": 233,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\233.png"
+  },
+  "stantler": {
+    "name": "Stantler",
+    "dex": 234,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\234.png"
+  },
+  "smeargle": {
+    "name": "Smeargle",
+    "dex": 235,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\235.png"
+  },
+  "tyrogue": {
+    "name": "Tyrogue",
+    "dex": 236,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\236.png"
+  },
+  "hitmontop": {
+    "name": "Hitmontop",
+    "dex": 237,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\237.png"
+  },
+  "smoochum": {
+    "name": "Smoochum",
+    "dex": 238,
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "img": "data\\sprites\\238.png"
+  },
+  "elekid": {
+    "name": "Elekid",
+    "dex": 239,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\239.png"
+  },
+  "magby": {
+    "name": "Magby",
+    "dex": 240,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\240.png"
+  },
+  "miltank": {
+    "name": "Miltank",
+    "dex": 241,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\241.png"
+  },
+  "blissey": {
+    "name": "Blissey",
+    "dex": 242,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\242.png"
+  },
+  "raikou": {
+    "name": "Raikou",
+    "dex": 243,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\243.png"
+  },
+  "entei": {
+    "name": "Entei",
+    "dex": 244,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\244.png"
+  },
+  "suicune": {
+    "name": "Suicune",
+    "dex": 245,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\245.png"
+  },
+  "larvitar": {
+    "name": "Larvitar",
+    "dex": 246,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "img": "data\\sprites\\246.png"
+  },
+  "pupitar": {
+    "name": "Pupitar",
+    "dex": 247,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "img": "data\\sprites\\247.png"
+  },
+  "tyranitar": {
+    "name": "Tyranitar",
+    "dex": 248,
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "img": "data\\sprites\\248.png"
+  },
+  "lugia": {
+    "name": "Lugia",
+    "dex": 249,
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "img": "data\\sprites\\249.png"
+  },
+  "ho-oh": {
+    "name": "Ho-Oh",
+    "dex": 250,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "img": "data\\sprites\\250.png"
+  },
+  "celebi": {
+    "name": "Celebi",
+    "dex": 251,
+    "types": [
+      "psychic",
+      "grass"
+    ],
+    "img": "data\\sprites\\251.png"
+  },
+  "treecko": {
+    "name": "Treecko",
+    "dex": 252,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\252.png"
+  },
+  "grovyle": {
+    "name": "Grovyle",
+    "dex": 253,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\253.png"
+  },
+  "sceptile": {
+    "name": "Sceptile",
+    "dex": 254,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\254.png"
+  },
+  "torchic": {
+    "name": "Torchic",
+    "dex": 255,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\255.png"
+  },
+  "combusken": {
+    "name": "Combusken",
+    "dex": 256,
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "img": "data\\sprites\\256.png"
+  },
+  "blaziken": {
+    "name": "Blaziken",
+    "dex": 257,
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "img": "data\\sprites\\257.png"
+  },
+  "mudkip": {
+    "name": "Mudkip",
+    "dex": 258,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\258.png"
+  },
+  "marshtomp": {
+    "name": "Marshtomp",
+    "dex": 259,
+    "types": [
+      "water",
+      "ground"
+    ],
+    "img": "data\\sprites\\259.png"
+  },
+  "swampert": {
+    "name": "Swampert",
+    "dex": 260,
+    "types": [
+      "water",
+      "ground"
+    ],
+    "img": "data\\sprites\\260.png"
+  },
+  "poochyena": {
+    "name": "Poochyena",
+    "dex": 261,
+    "types": [
+      "dark"
+    ],
+    "img": "data\\sprites\\261.png"
+  },
+  "mightyena": {
+    "name": "Mightyena",
+    "dex": 262,
+    "types": [
+      "dark"
+    ],
+    "img": "data\\sprites\\262.png"
+  },
+  "zigzagoon": {
+    "name": "Zigzagoon",
+    "dex": 263,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\263.png"
+  },
+  "linoone": {
+    "name": "Linoone",
+    "dex": 264,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\264.png"
+  },
+  "wurmple": {
+    "name": "Wurmple",
+    "dex": 265,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\265.png"
+  },
+  "silcoon": {
+    "name": "Silcoon",
+    "dex": 266,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\266.png"
+  },
+  "beautifly": {
+    "name": "Beautifly",
+    "dex": 267,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "img": "data\\sprites\\267.png"
+  },
+  "cascoon": {
+    "name": "Cascoon",
+    "dex": 268,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\268.png"
+  },
+  "dustox": {
+    "name": "Dustox",
+    "dex": 269,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "img": "data\\sprites\\269.png"
+  },
+  "lotad": {
+    "name": "Lotad",
+    "dex": 270,
+    "types": [
+      "water",
+      "grass"
+    ],
+    "img": "data\\sprites\\270.png"
+  },
+  "lombre": {
+    "name": "Lombre",
+    "dex": 271,
+    "types": [
+      "water",
+      "grass"
+    ],
+    "img": "data\\sprites\\271.png"
+  },
+  "ludicolo": {
+    "name": "Ludicolo",
+    "dex": 272,
+    "types": [
+      "water",
+      "grass"
+    ],
+    "img": "data\\sprites\\272.png"
+  },
+  "seedot": {
+    "name": "Seedot",
+    "dex": 273,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\273.png"
+  },
+  "nuzleaf": {
+    "name": "Nuzleaf",
+    "dex": 274,
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "img": "data\\sprites\\274.png"
+  },
+  "shiftry": {
+    "name": "Shiftry",
+    "dex": 275,
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "img": "data\\sprites\\275.png"
+  },
+  "taillow": {
+    "name": "Taillow",
+    "dex": 276,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\276.png"
+  },
+  "swellow": {
+    "name": "Swellow",
+    "dex": 277,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\277.png"
+  },
+  "wingull": {
+    "name": "Wingull",
+    "dex": 278,
+    "types": [
+      "water",
+      "flying"
+    ],
+    "img": "data\\sprites\\278.png"
+  },
+  "pelipper": {
+    "name": "Pelipper",
+    "dex": 279,
+    "types": [
+      "water",
+      "flying"
+    ],
+    "img": "data\\sprites\\279.png"
+  },
+  "ralts": {
+    "name": "Ralts",
+    "dex": 280,
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "img": "data\\sprites\\280.png"
+  },
+  "kirlia": {
+    "name": "Kirlia",
+    "dex": 281,
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "img": "data\\sprites\\281.png"
+  },
+  "gardevoir": {
+    "name": "Gardevoir",
+    "dex": 282,
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "img": "data\\sprites\\282.png"
+  },
+  "surskit": {
+    "name": "Surskit",
+    "dex": 283,
+    "types": [
+      "bug",
+      "water"
+    ],
+    "img": "data\\sprites\\283.png"
+  },
+  "masquerain": {
+    "name": "Masquerain",
+    "dex": 284,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "img": "data\\sprites\\284.png"
+  },
+  "shroomish": {
+    "name": "Shroomish",
+    "dex": 285,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\285.png"
+  },
+  "breloom": {
+    "name": "Breloom",
+    "dex": 286,
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "img": "data\\sprites\\286.png"
+  },
+  "slakoth": {
+    "name": "Slakoth",
+    "dex": 287,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\287.png"
+  },
+  "vigoroth": {
+    "name": "Vigoroth",
+    "dex": 288,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\288.png"
+  },
+  "slaking": {
+    "name": "Slaking",
+    "dex": 289,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\289.png"
+  },
+  "nincada": {
+    "name": "Nincada",
+    "dex": 290,
+    "types": [
+      "bug",
+      "ground"
+    ],
+    "img": "data\\sprites\\290.png"
+  },
+  "ninjask": {
+    "name": "Ninjask",
+    "dex": 291,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "img": "data\\sprites\\291.png"
+  },
+  "shedinja": {
+    "name": "Shedinja",
+    "dex": 292,
+    "types": [
+      "bug",
+      "ghost"
+    ],
+    "img": "data\\sprites\\292.png"
+  },
+  "whismur": {
+    "name": "Whismur",
+    "dex": 293,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\293.png"
+  },
+  "loudred": {
+    "name": "Loudred",
+    "dex": 294,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\294.png"
+  },
+  "exploud": {
+    "name": "Exploud",
+    "dex": 295,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\295.png"
+  },
+  "makuhita": {
+    "name": "Makuhita",
+    "dex": 296,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\296.png"
+  },
+  "hariyama": {
+    "name": "Hariyama",
+    "dex": 297,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\297.png"
+  },
+  "azurill": {
+    "name": "Azurill",
+    "dex": 298,
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "img": "data\\sprites\\298.png"
+  },
+  "nosepass": {
+    "name": "Nosepass",
+    "dex": 299,
+    "types": [
+      "rock"
+    ],
+    "img": "data\\sprites\\299.png"
+  },
+  "skitty": {
+    "name": "Skitty",
+    "dex": 300,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\300.png"
+  },
+  "delcatty": {
+    "name": "Delcatty",
+    "dex": 301,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\301.png"
+  },
+  "sableye": {
+    "name": "Sableye",
+    "dex": 302,
+    "types": [
+      "dark",
+      "ghost"
+    ],
+    "img": "data\\sprites\\302.png"
+  },
+  "mawile": {
+    "name": "Mawile",
+    "dex": 303,
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "img": "data\\sprites\\303.png"
+  },
+  "aron": {
+    "name": "Aron",
+    "dex": 304,
+    "types": [
+      "steel",
+      "rock"
+    ],
+    "img": "data\\sprites\\304.png"
+  },
+  "lairon": {
+    "name": "Lairon",
+    "dex": 305,
+    "types": [
+      "steel",
+      "rock"
+    ],
+    "img": "data\\sprites\\305.png"
+  },
+  "aggron": {
+    "name": "Aggron",
+    "dex": 306,
+    "types": [
+      "steel",
+      "rock"
+    ],
+    "img": "data\\sprites\\306.png"
+  },
+  "meditite": {
+    "name": "Meditite",
+    "dex": 307,
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "img": "data\\sprites\\307.png"
+  },
+  "medicham": {
+    "name": "Medicham",
+    "dex": 308,
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "img": "data\\sprites\\308.png"
+  },
+  "electrike": {
+    "name": "Electrike",
+    "dex": 309,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\309.png"
+  },
+  "manectric": {
+    "name": "Manectric",
+    "dex": 310,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\310.png"
+  },
+  "plusle": {
+    "name": "Plusle",
+    "dex": 311,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\311.png"
+  },
+  "minun": {
+    "name": "Minun",
+    "dex": 312,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\312.png"
+  },
+  "volbeat": {
+    "name": "Volbeat",
+    "dex": 313,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\313.png"
+  },
+  "illumise": {
+    "name": "Illumise",
+    "dex": 314,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\314.png"
+  },
+  "roselia": {
+    "name": "Roselia",
+    "dex": 315,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "img": "data\\sprites\\315.png"
+  },
+  "gulpin": {
+    "name": "Gulpin",
+    "dex": 316,
+    "types": [
+      "poison"
+    ],
+    "img": "data\\sprites\\316.png"
+  },
+  "swalot": {
+    "name": "Swalot",
+    "dex": 317,
+    "types": [
+      "poison"
+    ],
+    "img": "data\\sprites\\317.png"
+  },
+  "carvanha": {
+    "name": "Carvanha",
+    "dex": 318,
+    "types": [
+      "water",
+      "dark"
+    ],
+    "img": "data\\sprites\\318.png"
+  },
+  "sharpedo": {
+    "name": "Sharpedo",
+    "dex": 319,
+    "types": [
+      "water",
+      "dark"
+    ],
+    "img": "data\\sprites\\319.png"
+  },
+  "wailmer": {
+    "name": "Wailmer",
+    "dex": 320,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\320.png"
+  },
+  "wailord": {
+    "name": "Wailord",
+    "dex": 321,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\321.png"
+  },
+  "numel": {
+    "name": "Numel",
+    "dex": 322,
+    "types": [
+      "fire",
+      "ground"
+    ],
+    "img": "data\\sprites\\322.png"
+  },
+  "camerupt": {
+    "name": "Camerupt",
+    "dex": 323,
+    "types": [
+      "fire",
+      "ground"
+    ],
+    "img": "data\\sprites\\323.png"
+  },
+  "torkoal": {
+    "name": "Torkoal",
+    "dex": 324,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\324.png"
+  },
+  "spoink": {
+    "name": "Spoink",
+    "dex": 325,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\325.png"
+  },
+  "grumpig": {
+    "name": "Grumpig",
+    "dex": 326,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\326.png"
+  },
+  "spinda": {
+    "name": "Spinda",
+    "dex": 327,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\327.png"
+  },
+  "trapinch": {
+    "name": "Trapinch",
+    "dex": 328,
+    "types": [
+      "ground"
+    ],
+    "img": "data\\sprites\\328.png"
+  },
+  "vibrava": {
+    "name": "Vibrava",
+    "dex": 329,
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "img": "data\\sprites\\329.png"
+  },
+  "flygon": {
+    "name": "Flygon",
+    "dex": 330,
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "img": "data\\sprites\\330.png"
+  },
+  "cacnea": {
+    "name": "Cacnea",
+    "dex": 331,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\331.png"
+  },
+  "cacturne": {
+    "name": "Cacturne",
+    "dex": 332,
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "img": "data\\sprites\\332.png"
+  },
+  "swablu": {
+    "name": "Swablu",
+    "dex": 333,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\333.png"
+  },
+  "altaria": {
+    "name": "Altaria",
+    "dex": 334,
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "img": "data\\sprites\\334.png"
+  },
+  "zangoose": {
+    "name": "Zangoose",
+    "dex": 335,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\335.png"
+  },
+  "seviper": {
+    "name": "Seviper",
+    "dex": 336,
+    "types": [
+      "poison"
+    ],
+    "img": "data\\sprites\\336.png"
+  },
+  "lunatone": {
+    "name": "Lunatone",
+    "dex": 337,
+    "types": [
+      "rock",
+      "psychic"
+    ],
+    "img": "data\\sprites\\337.png"
+  },
+  "solrock": {
+    "name": "Solrock",
+    "dex": 338,
+    "types": [
+      "rock",
+      "psychic"
+    ],
+    "img": "data\\sprites\\338.png"
+  },
+  "barboach": {
+    "name": "Barboach",
+    "dex": 339,
+    "types": [
+      "water",
+      "ground"
+    ],
+    "img": "data\\sprites\\339.png"
+  },
+  "whiscash": {
+    "name": "Whiscash",
+    "dex": 340,
+    "types": [
+      "water",
+      "ground"
+    ],
+    "img": "data\\sprites\\340.png"
+  },
+  "corphish": {
+    "name": "Corphish",
+    "dex": 341,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\341.png"
+  },
+  "crawdaunt": {
+    "name": "Crawdaunt",
+    "dex": 342,
+    "types": [
+      "water",
+      "dark"
+    ],
+    "img": "data\\sprites\\342.png"
+  },
+  "baltoy": {
+    "name": "Baltoy",
+    "dex": 343,
+    "types": [
+      "ground",
+      "psychic"
+    ],
+    "img": "data\\sprites\\343.png"
+  },
+  "claydol": {
+    "name": "Claydol",
+    "dex": 344,
+    "types": [
+      "ground",
+      "psychic"
+    ],
+    "img": "data\\sprites\\344.png"
+  },
+  "lileep": {
+    "name": "Lileep",
+    "dex": 345,
+    "types": [
+      "rock",
+      "grass"
+    ],
+    "img": "data\\sprites\\345.png"
+  },
+  "cradily": {
+    "name": "Cradily",
+    "dex": 346,
+    "types": [
+      "rock",
+      "grass"
+    ],
+    "img": "data\\sprites\\346.png"
+  },
+  "anorith": {
+    "name": "Anorith",
+    "dex": 347,
+    "types": [
+      "rock",
+      "bug"
+    ],
+    "img": "data\\sprites\\347.png"
+  },
+  "armaldo": {
+    "name": "Armaldo",
+    "dex": 348,
+    "types": [
+      "rock",
+      "bug"
+    ],
+    "img": "data\\sprites\\348.png"
+  },
+  "feebas": {
+    "name": "Feebas",
+    "dex": 349,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\349.png"
+  },
+  "milotic": {
+    "name": "Milotic",
+    "dex": 350,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\350.png"
+  },
+  "castform": {
+    "name": "Castform",
+    "dex": 351,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\351.png"
+  },
+  "kecleon": {
+    "name": "Kecleon",
+    "dex": 352,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\352.png"
+  },
+  "shuppet": {
+    "name": "Shuppet",
+    "dex": 353,
+    "types": [
+      "ghost"
+    ],
+    "img": "data\\sprites\\353.png"
+  },
+  "banette": {
+    "name": "Banette",
+    "dex": 354,
+    "types": [
+      "ghost"
+    ],
+    "img": "data\\sprites\\354.png"
+  },
+  "duskull": {
+    "name": "Duskull",
+    "dex": 355,
+    "types": [
+      "ghost"
+    ],
+    "img": "data\\sprites\\355.png"
+  },
+  "dusclops": {
+    "name": "Dusclops",
+    "dex": 356,
+    "types": [
+      "ghost"
+    ],
+    "img": "data\\sprites\\356.png"
+  },
+  "tropius": {
+    "name": "Tropius",
+    "dex": 357,
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "img": "data\\sprites\\357.png"
+  },
+  "chimecho": {
+    "name": "Chimecho",
+    "dex": 358,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\358.png"
+  },
+  "absol": {
+    "name": "Absol",
+    "dex": 359,
+    "types": [
+      "dark"
+    ],
+    "img": "data\\sprites\\359.png"
+  },
+  "wynaut": {
+    "name": "Wynaut",
+    "dex": 360,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\360.png"
+  },
+  "snorunt": {
+    "name": "Snorunt",
+    "dex": 361,
+    "types": [
+      "ice"
+    ],
+    "img": "data\\sprites\\361.png"
+  },
+  "glalie": {
+    "name": "Glalie",
+    "dex": 362,
+    "types": [
+      "ice"
+    ],
+    "img": "data\\sprites\\362.png"
+  },
+  "spheal": {
+    "name": "Spheal",
+    "dex": 363,
+    "types": [
+      "ice",
+      "water"
+    ],
+    "img": "data\\sprites\\363.png"
+  },
+  "sealeo": {
+    "name": "Sealeo",
+    "dex": 364,
+    "types": [
+      "ice",
+      "water"
+    ],
+    "img": "data\\sprites\\364.png"
+  },
+  "walrein": {
+    "name": "Walrein",
+    "dex": 365,
+    "types": [
+      "ice",
+      "water"
+    ],
+    "img": "data\\sprites\\365.png"
+  },
+  "clamperl": {
+    "name": "Clamperl",
+    "dex": 366,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\366.png"
+  },
+  "huntail": {
+    "name": "Huntail",
+    "dex": 367,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\367.png"
+  },
+  "gorebyss": {
+    "name": "Gorebyss",
+    "dex": 368,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\368.png"
+  },
+  "relicanth": {
+    "name": "Relicanth",
+    "dex": 369,
+    "types": [
+      "water",
+      "rock"
+    ],
+    "img": "data\\sprites\\369.png"
+  },
+  "luvdisc": {
+    "name": "Luvdisc",
+    "dex": 370,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\370.png"
+  },
+  "bagon": {
+    "name": "Bagon",
+    "dex": 371,
+    "types": [
+      "dragon"
+    ],
+    "img": "data\\sprites\\371.png"
+  },
+  "shelgon": {
+    "name": "Shelgon",
+    "dex": 372,
+    "types": [
+      "dragon"
+    ],
+    "img": "data\\sprites\\372.png"
+  },
+  "salamence": {
+    "name": "Salamence",
+    "dex": 373,
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "img": "data\\sprites\\373.png"
+  },
+  "beldum": {
+    "name": "Beldum",
+    "dex": 374,
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "img": "data\\sprites\\374.png"
+  },
+  "metang": {
+    "name": "Metang",
+    "dex": 375,
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "img": "data\\sprites\\375.png"
+  },
+  "metagross": {
+    "name": "Metagross",
+    "dex": 376,
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "img": "data\\sprites\\376.png"
+  },
+  "regirock": {
+    "name": "Regirock",
+    "dex": 377,
+    "types": [
+      "rock"
+    ],
+    "img": "data\\sprites\\377.png"
+  },
+  "regice": {
+    "name": "Regice",
+    "dex": 378,
+    "types": [
+      "ice"
+    ],
+    "img": "data\\sprites\\378.png"
+  },
+  "registeel": {
+    "name": "Registeel",
+    "dex": 379,
+    "types": [
+      "steel"
+    ],
+    "img": "data\\sprites\\379.png"
+  },
+  "latias": {
+    "name": "Latias",
+    "dex": 380,
+    "types": [
+      "dragon",
+      "psychic"
+    ],
+    "img": "data\\sprites\\380.png"
+  },
+  "latios": {
+    "name": "Latios",
+    "dex": 381,
+    "types": [
+      "dragon",
+      "psychic"
+    ],
+    "img": "data\\sprites\\381.png"
+  },
+  "kyogre": {
+    "name": "Kyogre",
+    "dex": 382,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\382.png"
+  },
+  "groudon": {
+    "name": "Groudon",
+    "dex": 383,
+    "types": [
+      "ground"
+    ],
+    "img": "data\\sprites\\383.png"
+  },
+  "rayquaza": {
+    "name": "Rayquaza",
+    "dex": 384,
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "img": "data\\sprites\\384.png"
+  },
+  "jirachi": {
+    "name": "Jirachi",
+    "dex": 385,
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "img": "data\\sprites\\385.png"
+  },
+  "deoxys": {
+    "name": "Deoxys",
+    "dex": 386,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\386.png"
+  },
+  "turtwig": {
+    "name": "Turtwig",
+    "dex": 387,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\387.png"
+  },
+  "grotle": {
+    "name": "Grotle",
+    "dex": 388,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\388.png"
+  },
+  "torterra": {
+    "name": "Torterra",
+    "dex": 389,
+    "types": [
+      "grass",
+      "ground"
+    ],
+    "img": "data\\sprites\\389.png"
+  },
+  "chimchar": {
+    "name": "Chimchar",
+    "dex": 390,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\390.png"
+  },
+  "monferno": {
+    "name": "Monferno",
+    "dex": 391,
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "img": "data\\sprites\\391.png"
+  },
+  "infernape": {
+    "name": "Infernape",
+    "dex": 392,
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "img": "data\\sprites\\392.png"
+  },
+  "piplup": {
+    "name": "Piplup",
+    "dex": 393,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\393.png"
+  },
+  "prinplup": {
+    "name": "Prinplup",
+    "dex": 394,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\394.png"
+  },
+  "empoleon": {
+    "name": "Empoleon",
+    "dex": 395,
+    "types": [
+      "water",
+      "steel"
+    ],
+    "img": "data\\sprites\\395.png"
+  },
+  "starly": {
+    "name": "Starly",
+    "dex": 396,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\396.png"
+  },
+  "staravia": {
+    "name": "Staravia",
+    "dex": 397,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\397.png"
+  },
+  "staraptor": {
+    "name": "Staraptor",
+    "dex": 398,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\398.png"
+  },
+  "bidoof": {
+    "name": "Bidoof",
+    "dex": 399,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\399.png"
+  },
+  "bibarel": {
+    "name": "Bibarel",
+    "dex": 400,
+    "types": [
+      "normal",
+      "water"
+    ],
+    "img": "data\\sprites\\400.png"
+  },
+  "kricketot": {
+    "name": "Kricketot",
+    "dex": 401,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\401.png"
+  },
+  "kricketune": {
+    "name": "Kricketune",
+    "dex": 402,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\402.png"
+  },
+  "shinx": {
+    "name": "Shinx",
+    "dex": 403,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\403.png"
+  },
+  "luxio": {
+    "name": "Luxio",
+    "dex": 404,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\404.png"
+  },
+  "luxray": {
+    "name": "Luxray",
+    "dex": 405,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\405.png"
+  },
+  "budew": {
+    "name": "Budew",
+    "dex": 406,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "img": "data\\sprites\\406.png"
+  },
+  "roserade": {
+    "name": "Roserade",
+    "dex": 407,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "img": "data\\sprites\\407.png"
+  },
+  "cranidos": {
+    "name": "Cranidos",
+    "dex": 408,
+    "types": [
+      "rock"
+    ],
+    "img": "data\\sprites\\408.png"
+  },
+  "rampardos": {
+    "name": "Rampardos",
+    "dex": 409,
+    "types": [
+      "rock"
+    ],
+    "img": "data\\sprites\\409.png"
+  },
+  "shieldon": {
+    "name": "Shieldon",
+    "dex": 410,
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "img": "data\\sprites\\410.png"
+  },
+  "bastiodon": {
+    "name": "Bastiodon",
+    "dex": 411,
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "img": "data\\sprites\\411.png"
+  },
+  "burmy": {
+    "name": "Burmy",
+    "dex": 412,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\412.png"
+  },
+  "wormadam": {
+    "name": "Wormadam",
+    "dex": 413,
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "img": "data\\sprites\\413.png"
+  },
+  "mothim": {
+    "name": "Mothim",
+    "dex": 414,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "img": "data\\sprites\\414.png"
+  },
+  "combee": {
+    "name": "Combee",
+    "dex": 415,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "img": "data\\sprites\\415.png"
+  },
+  "vespiquen": {
+    "name": "Vespiquen",
+    "dex": 416,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "img": "data\\sprites\\416.png"
+  },
+  "pachirisu": {
+    "name": "Pachirisu",
+    "dex": 417,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\417.png"
+  },
+  "buizel": {
+    "name": "Buizel",
+    "dex": 418,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\418.png"
+  },
+  "floatzel": {
+    "name": "Floatzel",
+    "dex": 419,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\419.png"
+  },
+  "cherubi": {
+    "name": "Cherubi",
+    "dex": 420,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\420.png"
+  },
+  "cherrim": {
+    "name": "Cherrim",
+    "dex": 421,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\421.png"
+  },
+  "shellos": {
+    "name": "Shellos",
+    "dex": 422,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\422.png"
+  },
+  "gastrodon": {
+    "name": "Gastrodon",
+    "dex": 423,
+    "types": [
+      "water",
+      "ground"
+    ],
+    "img": "data\\sprites\\423.png"
+  },
+  "ambipom": {
+    "name": "Ambipom",
+    "dex": 424,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\424.png"
+  },
+  "drifloon": {
+    "name": "Drifloon",
+    "dex": 425,
+    "types": [
+      "ghost",
+      "flying"
+    ],
+    "img": "data\\sprites\\425.png"
+  },
+  "drifblim": {
+    "name": "Drifblim",
+    "dex": 426,
+    "types": [
+      "ghost",
+      "flying"
+    ],
+    "img": "data\\sprites\\426.png"
+  },
+  "buneary": {
+    "name": "Buneary",
+    "dex": 427,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\427.png"
+  },
+  "lopunny": {
+    "name": "Lopunny",
+    "dex": 428,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\428.png"
+  },
+  "mismagius": {
+    "name": "Mismagius",
+    "dex": 429,
+    "types": [
+      "ghost"
+    ],
+    "img": "data\\sprites\\429.png"
+  },
+  "honchkrow": {
+    "name": "Honchkrow",
+    "dex": 430,
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "img": "data\\sprites\\430.png"
+  },
+  "glameow": {
+    "name": "Glameow",
+    "dex": 431,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\431.png"
+  },
+  "purugly": {
+    "name": "Purugly",
+    "dex": 432,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\432.png"
+  },
+  "chingling": {
+    "name": "Chingling",
+    "dex": 433,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\433.png"
+  },
+  "stunky": {
+    "name": "Stunky",
+    "dex": 434,
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "img": "data\\sprites\\434.png"
+  },
+  "skuntank": {
+    "name": "Skuntank",
+    "dex": 435,
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "img": "data\\sprites\\435.png"
+  },
+  "bronzor": {
+    "name": "Bronzor",
+    "dex": 436,
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "img": "data\\sprites\\436.png"
+  },
+  "bronzong": {
+    "name": "Bronzong",
+    "dex": 437,
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "img": "data\\sprites\\437.png"
+  },
+  "bonsly": {
+    "name": "Bonsly",
+    "dex": 438,
+    "types": [
+      "rock"
+    ],
+    "img": "data\\sprites\\438.png"
+  },
+  "mime jr.": {
+    "name": "Mime Jr.",
+    "dex": 439,
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "img": "data\\sprites\\439.png"
+  },
+  "happiny": {
+    "name": "Happiny",
+    "dex": 440,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\440.png"
+  },
+  "chatot": {
+    "name": "Chatot",
+    "dex": 441,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\441.png"
+  },
+  "spiritomb": {
+    "name": "Spiritomb",
+    "dex": 442,
+    "types": [
+      "ghost",
+      "dark"
+    ],
+    "img": "data\\sprites\\442.png"
+  },
+  "gible": {
+    "name": "Gible",
+    "dex": 443,
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "img": "data\\sprites\\443.png"
+  },
+  "gabite": {
+    "name": "Gabite",
+    "dex": 444,
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "img": "data\\sprites\\444.png"
+  },
+  "garchomp": {
+    "name": "Garchomp",
+    "dex": 445,
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "img": "data\\sprites\\445.png"
+  },
+  "munchlax": {
+    "name": "Munchlax",
+    "dex": 446,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\446.png"
+  },
+  "riolu": {
+    "name": "Riolu",
+    "dex": 447,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\447.png"
+  },
+  "lucario": {
+    "name": "Lucario",
+    "dex": 448,
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "img": "data\\sprites\\448.png"
+  },
+  "hippopotas": {
+    "name": "Hippopotas",
+    "dex": 449,
+    "types": [
+      "ground"
+    ],
+    "img": "data\\sprites\\449.png"
+  },
+  "hippowdon": {
+    "name": "Hippowdon",
+    "dex": 450,
+    "types": [
+      "ground"
+    ],
+    "img": "data\\sprites\\450.png"
+  },
+  "skorupi": {
+    "name": "Skorupi",
+    "dex": 451,
+    "types": [
+      "poison",
+      "bug"
+    ],
+    "img": "data\\sprites\\451.png"
+  },
+  "drapion": {
+    "name": "Drapion",
+    "dex": 452,
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "img": "data\\sprites\\452.png"
+  },
+  "croagunk": {
+    "name": "Croagunk",
+    "dex": 453,
+    "types": [
+      "poison",
+      "fighting"
+    ],
+    "img": "data\\sprites\\453.png"
+  },
+  "toxicroak": {
+    "name": "Toxicroak",
+    "dex": 454,
+    "types": [
+      "poison",
+      "fighting"
+    ],
+    "img": "data\\sprites\\454.png"
+  },
+  "carnivine": {
+    "name": "Carnivine",
+    "dex": 455,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\455.png"
+  },
+  "finneon": {
+    "name": "Finneon",
+    "dex": 456,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\456.png"
+  },
+  "lumineon": {
+    "name": "Lumineon",
+    "dex": 457,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\457.png"
+  },
+  "mantyke": {
+    "name": "Mantyke",
+    "dex": 458,
+    "types": [
+      "water",
+      "flying"
+    ],
+    "img": "data\\sprites\\458.png"
+  },
+  "snover": {
+    "name": "Snover",
+    "dex": 459,
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "img": "data\\sprites\\459.png"
+  },
+  "abomasnow": {
+    "name": "Abomasnow",
+    "dex": 460,
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "img": "data\\sprites\\460.png"
+  },
+  "weavile": {
+    "name": "Weavile",
+    "dex": 461,
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "img": "data\\sprites\\461.png"
+  },
+  "magnezone": {
+    "name": "Magnezone",
+    "dex": 462,
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "img": "data\\sprites\\462.png"
+  },
+  "lickilicky": {
+    "name": "Lickilicky",
+    "dex": 463,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\463.png"
+  },
+  "rhyperior": {
+    "name": "Rhyperior",
+    "dex": 464,
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "img": "data\\sprites\\464.png"
+  },
+  "tangrowth": {
+    "name": "Tangrowth",
+    "dex": 465,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\465.png"
+  },
+  "electivire": {
+    "name": "Electivire",
+    "dex": 466,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\466.png"
+  },
+  "magmortar": {
+    "name": "Magmortar",
+    "dex": 467,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\467.png"
+  },
+  "togekiss": {
+    "name": "Togekiss",
+    "dex": 468,
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "img": "data\\sprites\\468.png"
+  },
+  "yanmega": {
+    "name": "Yanmega",
+    "dex": 469,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "img": "data\\sprites\\469.png"
+  },
+  "leafeon": {
+    "name": "Leafeon",
+    "dex": 470,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\470.png"
+  },
+  "glaceon": {
+    "name": "Glaceon",
+    "dex": 471,
+    "types": [
+      "ice"
+    ],
+    "img": "data\\sprites\\471.png"
+  },
+  "gliscor": {
+    "name": "Gliscor",
+    "dex": 472,
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "img": "data\\sprites\\472.png"
+  },
+  "mamoswine": {
+    "name": "Mamoswine",
+    "dex": 473,
+    "types": [
+      "ice",
+      "ground"
+    ],
+    "img": "data\\sprites\\473.png"
+  },
+  "porygon-z": {
+    "name": "Porygon-Z",
+    "dex": 474,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\474.png"
+  },
+  "gallade": {
+    "name": "Gallade",
+    "dex": 475,
+    "types": [
+      "psychic",
+      "fighting"
+    ],
+    "img": "data\\sprites\\475.png"
+  },
+  "probopass": {
+    "name": "Probopass",
+    "dex": 476,
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "img": "data\\sprites\\476.png"
+  },
+  "dusknoir": {
+    "name": "Dusknoir",
+    "dex": 477,
+    "types": [
+      "ghost"
+    ],
+    "img": "data\\sprites\\477.png"
+  },
+  "froslass": {
+    "name": "Froslass",
+    "dex": 478,
+    "types": [
+      "ice",
+      "ghost"
+    ],
+    "img": "data\\sprites\\478.png"
+  },
+  "rotom": {
+    "name": "Rotom",
+    "dex": 479,
+    "types": [
+      "electric",
+      "ghost"
+    ],
+    "img": "data\\sprites\\479.png"
+  },
+  "uxie": {
+    "name": "Uxie",
+    "dex": 480,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\480.png"
+  },
+  "mesprit": {
+    "name": "Mesprit",
+    "dex": 481,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\481.png"
+  },
+  "azelf": {
+    "name": "Azelf",
+    "dex": 482,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\482.png"
+  },
+  "dialga": {
+    "name": "Dialga",
+    "dex": 483,
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "img": "data\\sprites\\483.png"
+  },
+  "palkia": {
+    "name": "Palkia",
+    "dex": 484,
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "img": "data\\sprites\\484.png"
+  },
+  "heatran": {
+    "name": "Heatran",
+    "dex": 485,
+    "types": [
+      "fire",
+      "steel"
+    ],
+    "img": "data\\sprites\\485.png"
+  },
+  "regigigas": {
+    "name": "Regigigas",
+    "dex": 486,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\486.png"
+  },
+  "giratina": {
+    "name": "Giratina",
+    "dex": 487,
+    "types": [
+      "ghost",
+      "dragon"
+    ],
+    "img": "data\\sprites\\487.png"
+  },
+  "cresselia": {
+    "name": "Cresselia",
+    "dex": 488,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\488.png"
+  },
+  "phione": {
+    "name": "Phione",
+    "dex": 489,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\489.png"
+  },
+  "manaphy": {
+    "name": "Manaphy",
+    "dex": 490,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\490.png"
+  },
+  "darkrai": {
+    "name": "Darkrai",
+    "dex": 491,
+    "types": [
+      "dark"
+    ],
+    "img": "data\\sprites\\491.png"
+  },
+  "shaymin": {
+    "name": "Shaymin",
+    "dex": 492,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\492.png"
+  },
+  "arceus": {
+    "name": "Arceus",
+    "dex": 493,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\493.png"
+  },
+  "victini": {
+    "name": "Victini",
+    "dex": 494,
+    "types": [
+      "psychic",
+      "fire"
+    ],
+    "img": "data\\sprites\\494.png"
+  },
+  "snivy": {
+    "name": "Snivy",
+    "dex": 495,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\495.png"
+  },
+  "servine": {
+    "name": "Servine",
+    "dex": 496,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\496.png"
+  },
+  "serperior": {
+    "name": "Serperior",
+    "dex": 497,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\497.png"
+  },
+  "tepig": {
+    "name": "Tepig",
+    "dex": 498,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\498.png"
+  },
+  "pignite": {
+    "name": "Pignite",
+    "dex": 499,
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "img": "data\\sprites\\499.png"
+  },
+  "emboar": {
+    "name": "Emboar",
+    "dex": 500,
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "img": "data\\sprites\\500.png"
+  },
+  "oshawott": {
+    "name": "Oshawott",
+    "dex": 501,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\501.png"
+  },
+  "dewott": {
+    "name": "Dewott",
+    "dex": 502,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\502.png"
+  },
+  "samurott": {
+    "name": "Samurott",
+    "dex": 503,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\503.png"
+  },
+  "patrat": {
+    "name": "Patrat",
+    "dex": 504,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\504.png"
+  },
+  "watchog": {
+    "name": "Watchog",
+    "dex": 505,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\505.png"
+  },
+  "lillipup": {
+    "name": "Lillipup",
+    "dex": 506,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\506.png"
+  },
+  "herdier": {
+    "name": "Herdier",
+    "dex": 507,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\507.png"
+  },
+  "stoutland": {
+    "name": "Stoutland",
+    "dex": 508,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\508.png"
+  },
+  "purrloin": {
+    "name": "Purrloin",
+    "dex": 509,
+    "types": [
+      "dark"
+    ],
+    "img": "data\\sprites\\509.png"
+  },
+  "liepard": {
+    "name": "Liepard",
+    "dex": 510,
+    "types": [
+      "dark"
+    ],
+    "img": "data\\sprites\\510.png"
+  },
+  "pansage": {
+    "name": "Pansage",
+    "dex": 511,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\511.png"
+  },
+  "simisage": {
+    "name": "Simisage",
+    "dex": 512,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\512.png"
+  },
+  "pansear": {
+    "name": "Pansear",
+    "dex": 513,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\513.png"
+  },
+  "simisear": {
+    "name": "Simisear",
+    "dex": 514,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\514.png"
+  },
+  "panpour": {
+    "name": "Panpour",
+    "dex": 515,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\515.png"
+  },
+  "simipour": {
+    "name": "Simipour",
+    "dex": 516,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\516.png"
+  },
+  "munna": {
+    "name": "Munna",
+    "dex": 517,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\517.png"
+  },
+  "musharna": {
+    "name": "Musharna",
+    "dex": 518,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\518.png"
+  },
+  "pidove": {
+    "name": "Pidove",
+    "dex": 519,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\519.png"
+  },
+  "tranquill": {
+    "name": "Tranquill",
+    "dex": 520,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\520.png"
+  },
+  "unfezant": {
+    "name": "Unfezant",
+    "dex": 521,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\521.png"
+  },
+  "blitzle": {
+    "name": "Blitzle",
+    "dex": 522,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\522.png"
+  },
+  "zebstrika": {
+    "name": "Zebstrika",
+    "dex": 523,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\523.png"
+  },
+  "roggenrola": {
+    "name": "Roggenrola",
+    "dex": 524,
+    "types": [
+      "rock"
+    ],
+    "img": "data\\sprites\\524.png"
+  },
+  "boldore": {
+    "name": "Boldore",
+    "dex": 525,
+    "types": [
+      "rock"
+    ],
+    "img": "data\\sprites\\525.png"
+  },
+  "gigalith": {
+    "name": "Gigalith",
+    "dex": 526,
+    "types": [
+      "rock"
+    ],
+    "img": "data\\sprites\\526.png"
+  },
+  "woobat": {
+    "name": "Woobat",
+    "dex": 527,
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "img": "data\\sprites\\527.png"
+  },
+  "swoobat": {
+    "name": "Swoobat",
+    "dex": 528,
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "img": "data\\sprites\\528.png"
+  },
+  "drilbur": {
+    "name": "Drilbur",
+    "dex": 529,
+    "types": [
+      "ground"
+    ],
+    "img": "data\\sprites\\529.png"
+  },
+  "excadrill": {
+    "name": "Excadrill",
+    "dex": 530,
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "img": "data\\sprites\\530.png"
+  },
+  "audino": {
+    "name": "Audino",
+    "dex": 531,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\531.png"
+  },
+  "timburr": {
+    "name": "Timburr",
+    "dex": 532,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\532.png"
+  },
+  "gurdurr": {
+    "name": "Gurdurr",
+    "dex": 533,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\533.png"
+  },
+  "conkeldurr": {
+    "name": "Conkeldurr",
+    "dex": 534,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\534.png"
+  },
+  "tympole": {
+    "name": "Tympole",
+    "dex": 535,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\535.png"
+  },
+  "palpitoad": {
+    "name": "Palpitoad",
+    "dex": 536,
+    "types": [
+      "water",
+      "ground"
+    ],
+    "img": "data\\sprites\\536.png"
+  },
+  "seismitoad": {
+    "name": "Seismitoad",
+    "dex": 537,
+    "types": [
+      "water",
+      "ground"
+    ],
+    "img": "data\\sprites\\537.png"
+  },
+  "throh": {
+    "name": "Throh",
+    "dex": 538,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\538.png"
+  },
+  "sawk": {
+    "name": "Sawk",
+    "dex": 539,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\539.png"
+  },
+  "sewaddle": {
+    "name": "Sewaddle",
+    "dex": 540,
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "img": "data\\sprites\\540.png"
+  },
+  "swadloon": {
+    "name": "Swadloon",
+    "dex": 541,
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "img": "data\\sprites\\541.png"
+  },
+  "leavanny": {
+    "name": "Leavanny",
+    "dex": 542,
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "img": "data\\sprites\\542.png"
+  },
+  "venipede": {
+    "name": "Venipede",
+    "dex": 543,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "img": "data\\sprites\\543.png"
+  },
+  "whirlipede": {
+    "name": "Whirlipede",
+    "dex": 544,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "img": "data\\sprites\\544.png"
+  },
+  "scolipede": {
+    "name": "Scolipede",
+    "dex": 545,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "img": "data\\sprites\\545.png"
+  },
+  "cottonee": {
+    "name": "Cottonee",
+    "dex": 546,
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "img": "data\\sprites\\546.png"
+  },
+  "whimsicott": {
+    "name": "Whimsicott",
+    "dex": 547,
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "img": "data\\sprites\\547.png"
+  },
+  "petilil": {
+    "name": "Petilil",
+    "dex": 548,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\548.png"
+  },
+  "lilligant": {
+    "name": "Lilligant",
+    "dex": 549,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\549.png"
+  },
+  "basculin": {
+    "name": "Basculin",
+    "dex": 550,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\550.png"
+  },
+  "sandile": {
+    "name": "Sandile",
+    "dex": 551,
+    "types": [
+      "ground",
+      "dark"
+    ],
+    "img": "data\\sprites\\551.png"
+  },
+  "krokorok": {
+    "name": "Krokorok",
+    "dex": 552,
+    "types": [
+      "ground",
+      "dark"
+    ],
+    "img": "data\\sprites\\552.png"
+  },
+  "krookodile": {
+    "name": "Krookodile",
+    "dex": 553,
+    "types": [
+      "ground",
+      "dark"
+    ],
+    "img": "data\\sprites\\553.png"
+  },
+  "darumaka": {
+    "name": "Darumaka",
+    "dex": 554,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\554.png"
+  },
+  "darmanitan": {
+    "name": "Darmanitan",
+    "dex": 555,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\555.png"
+  },
+  "maractus": {
+    "name": "Maractus",
+    "dex": 556,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\556.png"
+  },
+  "dwebble": {
+    "name": "Dwebble",
+    "dex": 557,
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "img": "data\\sprites\\557.png"
+  },
+  "crustle": {
+    "name": "Crustle",
+    "dex": 558,
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "img": "data\\sprites\\558.png"
+  },
+  "scraggy": {
+    "name": "Scraggy",
+    "dex": 559,
+    "types": [
+      "dark",
+      "fighting"
+    ],
+    "img": "data\\sprites\\559.png"
+  },
+  "scrafty": {
+    "name": "Scrafty",
+    "dex": 560,
+    "types": [
+      "dark",
+      "fighting"
+    ],
+    "img": "data\\sprites\\560.png"
+  },
+  "sigilyph": {
+    "name": "Sigilyph",
+    "dex": 561,
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "img": "data\\sprites\\561.png"
+  },
+  "yamask": {
+    "name": "Yamask",
+    "dex": 562,
+    "types": [
+      "ghost"
+    ],
+    "img": "data\\sprites\\562.png"
+  },
+  "cofagrigus": {
+    "name": "Cofagrigus",
+    "dex": 563,
+    "types": [
+      "ghost"
+    ],
+    "img": "data\\sprites\\563.png"
+  },
+  "tirtouga": {
+    "name": "Tirtouga",
+    "dex": 564,
+    "types": [
+      "water",
+      "rock"
+    ],
+    "img": "data\\sprites\\564.png"
+  },
+  "carracosta": {
+    "name": "Carracosta",
+    "dex": 565,
+    "types": [
+      "water",
+      "rock"
+    ],
+    "img": "data\\sprites\\565.png"
+  },
+  "archen": {
+    "name": "Archen",
+    "dex": 566,
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "img": "data\\sprites\\566.png"
+  },
+  "archeops": {
+    "name": "Archeops",
+    "dex": 567,
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "img": "data\\sprites\\567.png"
+  },
+  "trubbish": {
+    "name": "Trubbish",
+    "dex": 568,
+    "types": [
+      "poison"
+    ],
+    "img": "data\\sprites\\568.png"
+  },
+  "garbodor": {
+    "name": "Garbodor",
+    "dex": 569,
+    "types": [
+      "poison"
+    ],
+    "img": "data\\sprites\\569.png"
+  },
+  "zorua": {
+    "name": "Zorua",
+    "dex": 570,
+    "types": [
+      "dark"
+    ],
+    "img": "data\\sprites\\570.png"
+  },
+  "zoroark": {
+    "name": "Zoroark",
+    "dex": 571,
+    "types": [
+      "dark"
+    ],
+    "img": "data\\sprites\\571.png"
+  },
+  "minccino": {
+    "name": "Minccino",
+    "dex": 572,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\572.png"
+  },
+  "cinccino": {
+    "name": "Cinccino",
+    "dex": 573,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\573.png"
+  },
+  "gothita": {
+    "name": "Gothita",
+    "dex": 574,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\574.png"
+  },
+  "gothorita": {
+    "name": "Gothorita",
+    "dex": 575,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\575.png"
+  },
+  "gothitelle": {
+    "name": "Gothitelle",
+    "dex": 576,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\576.png"
+  },
+  "solosis": {
+    "name": "Solosis",
+    "dex": 577,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\577.png"
+  },
+  "duosion": {
+    "name": "Duosion",
+    "dex": 578,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\578.png"
+  },
+  "reuniclus": {
+    "name": "Reuniclus",
+    "dex": 579,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\579.png"
+  },
+  "ducklett": {
+    "name": "Ducklett",
+    "dex": 580,
+    "types": [
+      "water",
+      "flying"
+    ],
+    "img": "data\\sprites\\580.png"
+  },
+  "swanna": {
+    "name": "Swanna",
+    "dex": 581,
+    "types": [
+      "water",
+      "flying"
+    ],
+    "img": "data\\sprites\\581.png"
+  },
+  "vanillite": {
+    "name": "Vanillite",
+    "dex": 582,
+    "types": [
+      "ice"
+    ],
+    "img": "data\\sprites\\582.png"
+  },
+  "vanillish": {
+    "name": "Vanillish",
+    "dex": 583,
+    "types": [
+      "ice"
+    ],
+    "img": "data\\sprites\\583.png"
+  },
+  "vanilluxe": {
+    "name": "Vanilluxe",
+    "dex": 584,
+    "types": [
+      "ice"
+    ],
+    "img": "data\\sprites\\584.png"
+  },
+  "deerling": {
+    "name": "Deerling",
+    "dex": 585,
+    "types": [
+      "normal",
+      "grass"
+    ],
+    "img": "data\\sprites\\585.png"
+  },
+  "sawsbuck": {
+    "name": "Sawsbuck",
+    "dex": 586,
+    "types": [
+      "normal",
+      "grass"
+    ],
+    "img": "data\\sprites\\586.png"
+  },
+  "emolga": {
+    "name": "Emolga",
+    "dex": 587,
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "img": "data\\sprites\\587.png"
+  },
+  "karrablast": {
+    "name": "Karrablast",
+    "dex": 588,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\588.png"
+  },
+  "escavalier": {
+    "name": "Escavalier",
+    "dex": 589,
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "img": "data\\sprites\\589.png"
+  },
+  "foongus": {
+    "name": "Foongus",
+    "dex": 590,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "img": "data\\sprites\\590.png"
+  },
+  "amoonguss": {
+    "name": "Amoonguss",
+    "dex": 591,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "img": "data\\sprites\\591.png"
+  },
+  "frillish": {
+    "name": "Frillish",
+    "dex": 592,
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "img": "data\\sprites\\592.png"
+  },
+  "jellicent": {
+    "name": "Jellicent",
+    "dex": 593,
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "img": "data\\sprites\\593.png"
+  },
+  "alomomola": {
+    "name": "Alomomola",
+    "dex": 594,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\594.png"
+  },
+  "joltik": {
+    "name": "Joltik",
+    "dex": 595,
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "img": "data\\sprites\\595.png"
+  },
+  "galvantula": {
+    "name": "Galvantula",
+    "dex": 596,
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "img": "data\\sprites\\596.png"
+  },
+  "ferroseed": {
+    "name": "Ferroseed",
+    "dex": 597,
+    "types": [
+      "grass",
+      "steel"
+    ],
+    "img": "data\\sprites\\597.png"
+  },
+  "ferrothorn": {
+    "name": "Ferrothorn",
+    "dex": 598,
+    "types": [
+      "grass",
+      "steel"
+    ],
+    "img": "data\\sprites\\598.png"
+  },
+  "klink": {
+    "name": "Klink",
+    "dex": 599,
+    "types": [
+      "steel"
+    ],
+    "img": "data\\sprites\\599.png"
+  },
+  "klang": {
+    "name": "Klang",
+    "dex": 600,
+    "types": [
+      "steel"
+    ],
+    "img": "data\\sprites\\600.png"
+  },
+  "klinklang": {
+    "name": "Klinklang",
+    "dex": 601,
+    "types": [
+      "steel"
+    ],
+    "img": "data\\sprites\\601.png"
+  },
+  "tynamo": {
+    "name": "Tynamo",
+    "dex": 602,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\602.png"
+  },
+  "eelektrik": {
+    "name": "Eelektrik",
+    "dex": 603,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\603.png"
+  },
+  "eelektross": {
+    "name": "Eelektross",
+    "dex": 604,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\604.png"
+  },
+  "elgyem": {
+    "name": "Elgyem",
+    "dex": 605,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\605.png"
+  },
+  "beheeyem": {
+    "name": "Beheeyem",
+    "dex": 606,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\606.png"
+  },
+  "litwick": {
+    "name": "Litwick",
+    "dex": 607,
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "img": "data\\sprites\\607.png"
+  },
+  "lampent": {
+    "name": "Lampent",
+    "dex": 608,
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "img": "data\\sprites\\608.png"
+  },
+  "chandelure": {
+    "name": "Chandelure",
+    "dex": 609,
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "img": "data\\sprites\\609.png"
+  },
+  "axew": {
+    "name": "Axew",
+    "dex": 610,
+    "types": [
+      "dragon"
+    ],
+    "img": "data\\sprites\\610.png"
+  },
+  "fraxure": {
+    "name": "Fraxure",
+    "dex": 611,
+    "types": [
+      "dragon"
+    ],
+    "img": "data\\sprites\\611.png"
+  },
+  "haxorus": {
+    "name": "Haxorus",
+    "dex": 612,
+    "types": [
+      "dragon"
+    ],
+    "img": "data\\sprites\\612.png"
+  },
+  "cubchoo": {
+    "name": "Cubchoo",
+    "dex": 613,
+    "types": [
+      "ice"
+    ],
+    "img": "data\\sprites\\613.png"
+  },
+  "beartic": {
+    "name": "Beartic",
+    "dex": 614,
+    "types": [
+      "ice"
+    ],
+    "img": "data\\sprites\\614.png"
+  },
+  "cryogonal": {
+    "name": "Cryogonal",
+    "dex": 615,
+    "types": [
+      "ice"
+    ],
+    "img": "data\\sprites\\615.png"
+  },
+  "shelmet": {
+    "name": "Shelmet",
+    "dex": 616,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\616.png"
+  },
+  "accelgor": {
+    "name": "Accelgor",
+    "dex": 617,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\617.png"
+  },
+  "stunfisk": {
+    "name": "Stunfisk",
+    "dex": 618,
+    "types": [
+      "ground",
+      "electric"
+    ],
+    "img": "data\\sprites\\618.png"
+  },
+  "mienfoo": {
+    "name": "Mienfoo",
+    "dex": 619,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\619.png"
+  },
+  "mienshao": {
+    "name": "Mienshao",
+    "dex": 620,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\620.png"
+  },
+  "druddigon": {
+    "name": "Druddigon",
+    "dex": 621,
+    "types": [
+      "dragon"
+    ],
+    "img": "data\\sprites\\621.png"
+  },
+  "golett": {
+    "name": "Golett",
+    "dex": 622,
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "img": "data\\sprites\\622.png"
+  },
+  "golurk": {
+    "name": "Golurk",
+    "dex": 623,
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "img": "data\\sprites\\623.png"
+  },
+  "pawniard": {
+    "name": "Pawniard",
+    "dex": 624,
+    "types": [
+      "dark",
+      "steel"
+    ],
+    "img": "data\\sprites\\624.png"
+  },
+  "bisharp": {
+    "name": "Bisharp",
+    "dex": 625,
+    "types": [
+      "dark",
+      "steel"
+    ],
+    "img": "data\\sprites\\625.png"
+  },
+  "bouffalant": {
+    "name": "Bouffalant",
+    "dex": 626,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\626.png"
+  },
+  "rufflet": {
+    "name": "Rufflet",
+    "dex": 627,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\627.png"
+  },
+  "braviary": {
+    "name": "Braviary",
+    "dex": 628,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\628.png"
+  },
+  "vullaby": {
+    "name": "Vullaby",
+    "dex": 629,
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "img": "data\\sprites\\629.png"
+  },
+  "mandibuzz": {
+    "name": "Mandibuzz",
+    "dex": 630,
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "img": "data\\sprites\\630.png"
+  },
+  "heatmor": {
+    "name": "Heatmor",
+    "dex": 631,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\631.png"
+  },
+  "durant": {
+    "name": "Durant",
+    "dex": 632,
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "img": "data\\sprites\\632.png"
+  },
+  "deino": {
+    "name": "Deino",
+    "dex": 633,
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "img": "data\\sprites\\633.png"
+  },
+  "zweilous": {
+    "name": "Zweilous",
+    "dex": 634,
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "img": "data\\sprites\\634.png"
+  },
+  "hydreigon": {
+    "name": "Hydreigon",
+    "dex": 635,
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "img": "data\\sprites\\635.png"
+  },
+  "larvesta": {
+    "name": "Larvesta",
+    "dex": 636,
+    "types": [
+      "bug",
+      "fire"
+    ],
+    "img": "data\\sprites\\636.png"
+  },
+  "volcarona": {
+    "name": "Volcarona",
+    "dex": 637,
+    "types": [
+      "bug",
+      "fire"
+    ],
+    "img": "data\\sprites\\637.png"
+  },
+  "cobalion": {
+    "name": "Cobalion",
+    "dex": 638,
+    "types": [
+      "steel",
+      "fighting"
+    ],
+    "img": "data\\sprites\\638.png"
+  },
+  "terrakion": {
+    "name": "Terrakion",
+    "dex": 639,
+    "types": [
+      "rock",
+      "fighting"
+    ],
+    "img": "data\\sprites\\639.png"
+  },
+  "virizion": {
+    "name": "Virizion",
+    "dex": 640,
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "img": "data\\sprites\\640.png"
+  },
+  "tornadus": {
+    "name": "Tornadus",
+    "dex": 641,
+    "types": [
+      "flying"
+    ],
+    "img": "data\\sprites\\641.png"
+  },
+  "thundurus": {
+    "name": "Thundurus",
+    "dex": 642,
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "img": "data\\sprites\\642.png"
+  },
+  "reshiram": {
+    "name": "Reshiram",
+    "dex": 643,
+    "types": [
+      "dragon",
+      "fire"
+    ],
+    "img": "data\\sprites\\643.png"
+  },
+  "zekrom": {
+    "name": "Zekrom",
+    "dex": 644,
+    "types": [
+      "dragon",
+      "electric"
+    ],
+    "img": "data\\sprites\\644.png"
+  },
+  "landorus": {
+    "name": "Landorus",
+    "dex": 645,
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "img": "data\\sprites\\645.png"
+  },
+  "kyurem": {
+    "name": "Kyurem",
+    "dex": 646,
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "img": "data\\sprites\\646.png"
+  },
+  "keldeo": {
+    "name": "Keldeo",
+    "dex": 647,
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "img": "data\\sprites\\647.png"
+  },
+  "meloetta": {
+    "name": "Meloetta",
+    "dex": 648,
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "img": "data\\sprites\\648.png"
+  },
+  "genesect": {
+    "name": "Genesect",
+    "dex": 649,
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "img": "data\\sprites\\649.png"
+  },
+  "chespin": {
+    "name": "Chespin",
+    "dex": 650,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\650.png"
+  },
+  "quilladin": {
+    "name": "Quilladin",
+    "dex": 651,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\651.png"
+  },
+  "chesnaught": {
+    "name": "Chesnaught",
+    "dex": 652,
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "img": "data\\sprites\\652.png"
+  },
+  "fennekin": {
+    "name": "Fennekin",
+    "dex": 653,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\653.png"
+  },
+  "braixen": {
+    "name": "Braixen",
+    "dex": 654,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\654.png"
+  },
+  "delphox": {
+    "name": "Delphox",
+    "dex": 655,
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "img": "data\\sprites\\655.png"
+  },
+  "froakie": {
+    "name": "Froakie",
+    "dex": 656,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\656.png"
+  },
+  "frogadier": {
+    "name": "Frogadier",
+    "dex": 657,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\657.png"
+  },
+  "greninja": {
+    "name": "Greninja",
+    "dex": 658,
+    "types": [
+      "water",
+      "dark"
+    ],
+    "img": "data\\sprites\\658.png"
+  },
+  "bunnelby": {
+    "name": "Bunnelby",
+    "dex": 659,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\659.png"
+  },
+  "diggersby": {
+    "name": "Diggersby",
+    "dex": 660,
+    "types": [
+      "normal",
+      "ground"
+    ],
+    "img": "data\\sprites\\660.png"
+  },
+  "fletchling": {
+    "name": "Fletchling",
+    "dex": 661,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\661.png"
+  },
+  "fletchinder": {
+    "name": "Fletchinder",
+    "dex": 662,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "img": "data\\sprites\\662.png"
+  },
+  "talonflame": {
+    "name": "Talonflame",
+    "dex": 663,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "img": "data\\sprites\\663.png"
+  },
+  "scatterbug": {
+    "name": "Scatterbug",
+    "dex": 664,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\664.png"
+  },
+  "spewpa": {
+    "name": "Spewpa",
+    "dex": 665,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\665.png"
+  },
+  "vivillon": {
+    "name": "Vivillon",
+    "dex": 666,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "img": "data\\sprites\\666.png"
+  },
+  "litleo": {
+    "name": "Litleo",
+    "dex": 667,
+    "types": [
+      "fire",
+      "normal"
+    ],
+    "img": "data\\sprites\\667.png"
+  },
+  "pyroar": {
+    "name": "Pyroar",
+    "dex": 668,
+    "types": [
+      "fire",
+      "normal"
+    ],
+    "img": "data\\sprites\\668.png"
+  },
+  "flabébé": {
+    "name": "Flabébé",
+    "dex": 669,
+    "types": [
+      "fairy"
+    ],
+    "img": "data\\sprites\\669.png"
+  },
+  "floette": {
+    "name": "Floette",
+    "dex": 670,
+    "types": [
+      "fairy"
+    ],
+    "img": "data\\sprites\\670.png"
+  },
+  "florges": {
+    "name": "Florges",
+    "dex": 671,
+    "types": [
+      "fairy"
+    ],
+    "img": "data\\sprites\\671.png"
+  },
+  "skiddo": {
+    "name": "Skiddo",
+    "dex": 672,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\672.png"
+  },
+  "gogoat": {
+    "name": "Gogoat",
+    "dex": 673,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\673.png"
+  },
+  "pancham": {
+    "name": "Pancham",
+    "dex": 674,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\674.png"
+  },
+  "pangoro": {
+    "name": "Pangoro",
+    "dex": 675,
+    "types": [
+      "fighting",
+      "dark"
+    ],
+    "img": "data\\sprites\\675.png"
+  },
+  "furfrou": {
+    "name": "Furfrou",
+    "dex": 676,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\676.png"
+  },
+  "espurr": {
+    "name": "Espurr",
+    "dex": 677,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\677.png"
+  },
+  "meowstic": {
+    "name": "Meowstic",
+    "dex": 678,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\678.png"
+  },
+  "honedge": {
+    "name": "Honedge",
+    "dex": 679,
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "img": "data\\sprites\\679.png"
+  },
+  "doublade": {
+    "name": "Doublade",
+    "dex": 680,
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "img": "data\\sprites\\680.png"
+  },
+  "aegislash": {
+    "name": "Aegislash",
+    "dex": 681,
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "img": "data\\sprites\\681.png"
+  },
+  "spritzee": {
+    "name": "Spritzee",
+    "dex": 682,
+    "types": [
+      "fairy"
+    ],
+    "img": "data\\sprites\\682.png"
+  },
+  "aromatisse": {
+    "name": "Aromatisse",
+    "dex": 683,
+    "types": [
+      "fairy"
+    ],
+    "img": "data\\sprites\\683.png"
+  },
+  "swirlix": {
+    "name": "Swirlix",
+    "dex": 684,
+    "types": [
+      "fairy"
+    ],
+    "img": "data\\sprites\\684.png"
+  },
+  "slurpuff": {
+    "name": "Slurpuff",
+    "dex": 685,
+    "types": [
+      "fairy"
+    ],
+    "img": "data\\sprites\\685.png"
+  },
+  "inkay": {
+    "name": "Inkay",
+    "dex": 686,
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "img": "data\\sprites\\686.png"
+  },
+  "malamar": {
+    "name": "Malamar",
+    "dex": 687,
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "img": "data\\sprites\\687.png"
+  },
+  "binacle": {
+    "name": "Binacle",
+    "dex": 688,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "img": "data\\sprites\\688.png"
+  },
+  "barbaracle": {
+    "name": "Barbaracle",
+    "dex": 689,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "img": "data\\sprites\\689.png"
+  },
+  "skrelp": {
+    "name": "Skrelp",
+    "dex": 690,
+    "types": [
+      "poison",
+      "water"
+    ],
+    "img": "data\\sprites\\690.png"
+  },
+  "dragalge": {
+    "name": "Dragalge",
+    "dex": 691,
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "img": "data\\sprites\\691.png"
+  },
+  "clauncher": {
+    "name": "Clauncher",
+    "dex": 692,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\692.png"
+  },
+  "clawitzer": {
+    "name": "Clawitzer",
+    "dex": 693,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\693.png"
+  },
+  "helioptile": {
+    "name": "Helioptile",
+    "dex": 694,
+    "types": [
+      "electric",
+      "normal"
+    ],
+    "img": "data\\sprites\\694.png"
+  },
+  "heliolisk": {
+    "name": "Heliolisk",
+    "dex": 695,
+    "types": [
+      "electric",
+      "normal"
+    ],
+    "img": "data\\sprites\\695.png"
+  },
+  "tyrunt": {
+    "name": "Tyrunt",
+    "dex": 696,
+    "types": [
+      "rock",
+      "dragon"
+    ],
+    "img": "data\\sprites\\696.png"
+  },
+  "tyrantrum": {
+    "name": "Tyrantrum",
+    "dex": 697,
+    "types": [
+      "rock",
+      "dragon"
+    ],
+    "img": "data\\sprites\\697.png"
+  },
+  "amaura": {
+    "name": "Amaura",
+    "dex": 698,
+    "types": [
+      "rock",
+      "ice"
+    ],
+    "img": "data\\sprites\\698.png"
+  },
+  "aurorus": {
+    "name": "Aurorus",
+    "dex": 699,
+    "types": [
+      "rock",
+      "ice"
+    ],
+    "img": "data\\sprites\\699.png"
+  },
+  "sylveon": {
+    "name": "Sylveon",
+    "dex": 700,
+    "types": [
+      "fairy"
+    ],
+    "img": "data\\sprites\\700.png"
+  },
+  "hawlucha": {
+    "name": "Hawlucha",
+    "dex": 701,
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "img": "data\\sprites\\701.png"
+  },
+  "dedenne": {
+    "name": "Dedenne",
+    "dex": 702,
+    "types": [
+      "electric",
+      "fairy"
+    ],
+    "img": "data\\sprites\\702.png"
+  },
+  "carbink": {
+    "name": "Carbink",
+    "dex": 703,
+    "types": [
+      "rock",
+      "fairy"
+    ],
+    "img": "data\\sprites\\703.png"
+  },
+  "goomy": {
+    "name": "Goomy",
+    "dex": 704,
+    "types": [
+      "dragon"
+    ],
+    "img": "data\\sprites\\704.png"
+  },
+  "sliggoo": {
+    "name": "Sliggoo",
+    "dex": 705,
+    "types": [
+      "dragon"
+    ],
+    "img": "data\\sprites\\705.png"
+  },
+  "goodra": {
+    "name": "Goodra",
+    "dex": 706,
+    "types": [
+      "dragon"
+    ],
+    "img": "data\\sprites\\706.png"
+  },
+  "klefki": {
+    "name": "Klefki",
+    "dex": 707,
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "img": "data\\sprites\\707.png"
+  },
+  "phantump": {
+    "name": "Phantump",
+    "dex": 708,
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "img": "data\\sprites\\708.png"
+  },
+  "trevenant": {
+    "name": "Trevenant",
+    "dex": 709,
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "img": "data\\sprites\\709.png"
+  },
+  "pumpkaboo": {
+    "name": "Pumpkaboo",
+    "dex": 710,
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "img": "data\\sprites\\710.png"
+  },
+  "gourgeist": {
+    "name": "Gourgeist",
+    "dex": 711,
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "img": "data\\sprites\\711.png"
+  },
+  "bergmite": {
+    "name": "Bergmite",
+    "dex": 712,
+    "types": [
+      "ice"
+    ],
+    "img": "data\\sprites\\712.png"
+  },
+  "avalugg": {
+    "name": "Avalugg",
+    "dex": 713,
+    "types": [
+      "ice"
+    ],
+    "img": "data\\sprites\\713.png"
+  },
+  "noibat": {
+    "name": "Noibat",
+    "dex": 714,
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "img": "data\\sprites\\714.png"
+  },
+  "noivern": {
+    "name": "Noivern",
+    "dex": 715,
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "img": "data\\sprites\\715.png"
+  },
+  "xerneas": {
+    "name": "Xerneas",
+    "dex": 716,
+    "types": [
+      "fairy"
+    ],
+    "img": "data\\sprites\\716.png"
+  },
+  "yveltal": {
+    "name": "Yveltal",
+    "dex": 717,
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "img": "data\\sprites\\717.png"
+  },
+  "zygarde": {
+    "name": "Zygarde",
+    "dex": 718,
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "img": "data\\sprites\\718.png"
+  },
+  "diancie": {
+    "name": "Diancie",
+    "dex": 719,
+    "types": [
+      "rock",
+      "fairy"
+    ],
+    "img": "data\\sprites\\719.png"
+  },
+  "hoopa": {
+    "name": "Hoopa",
+    "dex": 720,
+    "types": [
+      "psychic",
+      "ghost"
+    ],
+    "img": "data\\sprites\\720.png"
+  },
+  "volcanion": {
+    "name": "Volcanion",
+    "dex": 721,
+    "types": [
+      "fire",
+      "water"
+    ],
+    "img": "data\\sprites\\721.png"
+  },
+  "rowlet": {
+    "name": "Rowlet",
+    "dex": 722,
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "img": "data\\sprites\\722.png"
+  },
+  "dartrix": {
+    "name": "Dartrix",
+    "dex": 723,
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "img": "data\\sprites\\723.png"
+  },
+  "decidueye": {
+    "name": "Decidueye",
+    "dex": 724,
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "img": "data\\sprites\\724.png"
+  },
+  "litten": {
+    "name": "Litten",
+    "dex": 725,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\725.png"
+  },
+  "torracat": {
+    "name": "Torracat",
+    "dex": 726,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\726.png"
+  },
+  "incineroar": {
+    "name": "Incineroar",
+    "dex": 727,
+    "types": [
+      "fire",
+      "dark"
+    ],
+    "img": "data\\sprites\\727.png"
+  },
+  "popplio": {
+    "name": "Popplio",
+    "dex": 728,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\728.png"
+  },
+  "brionne": {
+    "name": "Brionne",
+    "dex": 729,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\729.png"
+  },
+  "primarina": {
+    "name": "Primarina",
+    "dex": 730,
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "img": "data\\sprites\\730.png"
+  },
+  "pikipek": {
+    "name": "Pikipek",
+    "dex": 731,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\731.png"
+  },
+  "trumbeak": {
+    "name": "Trumbeak",
+    "dex": 732,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\732.png"
+  },
+  "toucannon": {
+    "name": "Toucannon",
+    "dex": 733,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\733.png"
+  },
+  "yungoos": {
+    "name": "Yungoos",
+    "dex": 734,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\734.png"
+  },
+  "gumshoos": {
+    "name": "Gumshoos",
+    "dex": 735,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\735.png"
+  },
+  "grubbin": {
+    "name": "Grubbin",
+    "dex": 736,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\736.png"
+  },
+  "charjabug": {
+    "name": "Charjabug",
+    "dex": 737,
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "img": "data\\sprites\\737.png"
+  },
+  "vikavolt": {
+    "name": "Vikavolt",
+    "dex": 738,
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "img": "data\\sprites\\738.png"
+  },
+  "crabrawler": {
+    "name": "Crabrawler",
+    "dex": 739,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\739.png"
+  },
+  "crabominable": {
+    "name": "Crabominable",
+    "dex": 740,
+    "types": [
+      "fighting",
+      "ice"
+    ],
+    "img": "data\\sprites\\740.png"
+  },
+  "oricorio": {
+    "name": "Oricorio",
+    "dex": 741,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "img": "data\\sprites\\741.png"
+  },
+  "cutiefly": {
+    "name": "Cutiefly",
+    "dex": 742,
+    "types": [
+      "bug",
+      "fairy"
+    ],
+    "img": "data\\sprites\\742.png"
+  },
+  "ribombee": {
+    "name": "Ribombee",
+    "dex": 743,
+    "types": [
+      "bug",
+      "fairy"
+    ],
+    "img": "data\\sprites\\743.png"
+  },
+  "rockruff": {
+    "name": "Rockruff",
+    "dex": 744,
+    "types": [
+      "rock"
+    ],
+    "img": "data\\sprites\\744.png"
+  },
+  "lycanroc": {
+    "name": "Lycanroc",
+    "dex": 745,
+    "types": [
+      "rock"
+    ],
+    "img": "data\\sprites\\745.png"
+  },
+  "wishiwashi": {
+    "name": "Wishiwashi",
+    "dex": 746,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\746.png"
+  },
+  "mareanie": {
+    "name": "Mareanie",
+    "dex": 747,
+    "types": [
+      "poison",
+      "water"
+    ],
+    "img": "data\\sprites\\747.png"
+  },
+  "toxapex": {
+    "name": "Toxapex",
+    "dex": 748,
+    "types": [
+      "poison",
+      "water"
+    ],
+    "img": "data\\sprites\\748.png"
+  },
+  "mudbray": {
+    "name": "Mudbray",
+    "dex": 749,
+    "types": [
+      "ground"
+    ],
+    "img": "data\\sprites\\749.png"
+  },
+  "mudsdale": {
+    "name": "Mudsdale",
+    "dex": 750,
+    "types": [
+      "ground"
+    ],
+    "img": "data\\sprites\\750.png"
+  },
+  "dewpider": {
+    "name": "Dewpider",
+    "dex": 751,
+    "types": [
+      "water",
+      "bug"
+    ],
+    "img": "data\\sprites\\751.png"
+  },
+  "araquanid": {
+    "name": "Araquanid",
+    "dex": 752,
+    "types": [
+      "water",
+      "bug"
+    ],
+    "img": "data\\sprites\\752.png"
+  },
+  "fomantis": {
+    "name": "Fomantis",
+    "dex": 753,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\753.png"
+  },
+  "lurantis": {
+    "name": "Lurantis",
+    "dex": 754,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\754.png"
+  },
+  "morelull": {
+    "name": "Morelull",
+    "dex": 755,
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "img": "data\\sprites\\755.png"
+  },
+  "shiinotic": {
+    "name": "Shiinotic",
+    "dex": 756,
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "img": "data\\sprites\\756.png"
+  },
+  "salandit": {
+    "name": "Salandit",
+    "dex": 757,
+    "types": [
+      "poison",
+      "fire"
+    ],
+    "img": "data\\sprites\\757.png"
+  },
+  "salazzle": {
+    "name": "Salazzle",
+    "dex": 758,
+    "types": [
+      "poison",
+      "fire"
+    ],
+    "img": "data\\sprites\\758.png"
+  },
+  "stufful": {
+    "name": "Stufful",
+    "dex": 759,
+    "types": [
+      "normal",
+      "fighting"
+    ],
+    "img": "data\\sprites\\759.png"
+  },
+  "bewear": {
+    "name": "Bewear",
+    "dex": 760,
+    "types": [
+      "normal",
+      "fighting"
+    ],
+    "img": "data\\sprites\\760.png"
+  },
+  "bounsweet": {
+    "name": "Bounsweet",
+    "dex": 761,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\761.png"
+  },
+  "steenee": {
+    "name": "Steenee",
+    "dex": 762,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\762.png"
+  },
+  "tsareena": {
+    "name": "Tsareena",
+    "dex": 763,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\763.png"
+  },
+  "comfey": {
+    "name": "Comfey",
+    "dex": 764,
+    "types": [
+      "fairy"
+    ],
+    "img": "data\\sprites\\764.png"
+  },
+  "oranguru": {
+    "name": "Oranguru",
+    "dex": 765,
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "img": "data\\sprites\\765.png"
+  },
+  "passimian": {
+    "name": "Passimian",
+    "dex": 766,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\766.png"
+  },
+  "wimpod": {
+    "name": "Wimpod",
+    "dex": 767,
+    "types": [
+      "bug",
+      "water"
+    ],
+    "img": "data\\sprites\\767.png"
+  },
+  "golisopod": {
+    "name": "Golisopod",
+    "dex": 768,
+    "types": [
+      "bug",
+      "water"
+    ],
+    "img": "data\\sprites\\768.png"
+  },
+  "sandygast": {
+    "name": "Sandygast",
+    "dex": 769,
+    "types": [
+      "ghost",
+      "ground"
+    ],
+    "img": "data\\sprites\\769.png"
+  },
+  "palossand": {
+    "name": "Palossand",
+    "dex": 770,
+    "types": [
+      "ghost",
+      "ground"
+    ],
+    "img": "data\\sprites\\770.png"
+  },
+  "pyukumuku": {
+    "name": "Pyukumuku",
+    "dex": 771,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\771.png"
+  },
+  "type: null": {
+    "name": "Type: Null",
+    "dex": 772,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\772.png"
+  },
+  "silvally": {
+    "name": "Silvally",
+    "dex": 773,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\773.png"
+  },
+  "minior": {
+    "name": "Minior",
+    "dex": 774,
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "img": "data\\sprites\\774.png"
+  },
+  "komala": {
+    "name": "Komala",
+    "dex": 775,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\775.png"
+  },
+  "turtonator": {
+    "name": "Turtonator",
+    "dex": 776,
+    "types": [
+      "fire",
+      "dragon"
+    ],
+    "img": "data\\sprites\\776.png"
+  },
+  "togedemaru": {
+    "name": "Togedemaru",
+    "dex": 777,
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "img": "data\\sprites\\777.png"
+  },
+  "mimikyu": {
+    "name": "Mimikyu",
+    "dex": 778,
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "img": "data\\sprites\\778.png"
+  },
+  "bruxish": {
+    "name": "Bruxish",
+    "dex": 779,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "img": "data\\sprites\\779.png"
+  },
+  "drampa": {
+    "name": "Drampa",
+    "dex": 780,
+    "types": [
+      "normal",
+      "dragon"
+    ],
+    "img": "data\\sprites\\780.png"
+  },
+  "dhelmise": {
+    "name": "Dhelmise",
+    "dex": 781,
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "img": "data\\sprites\\781.png"
+  },
+  "jangmo-o": {
+    "name": "Jangmo-o",
+    "dex": 782,
+    "types": [
+      "dragon"
+    ],
+    "img": "data\\sprites\\782.png"
+  },
+  "hakamo-o": {
+    "name": "Hakamo-o",
+    "dex": 783,
+    "types": [
+      "dragon",
+      "fighting"
+    ],
+    "img": "data\\sprites\\783.png"
+  },
+  "kommo-o": {
+    "name": "Kommo-o",
+    "dex": 784,
+    "types": [
+      "dragon",
+      "fighting"
+    ],
+    "img": "data\\sprites\\784.png"
+  },
+  "tapu koko": {
+    "name": "Tapu Koko",
+    "dex": 785,
+    "types": [
+      "electric",
+      "fairy"
+    ],
+    "img": "data\\sprites\\785.png"
+  },
+  "tapu lele": {
+    "name": "Tapu Lele",
+    "dex": 786,
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "img": "data\\sprites\\786.png"
+  },
+  "tapu bulu": {
+    "name": "Tapu Bulu",
+    "dex": 787,
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "img": "data\\sprites\\787.png"
+  },
+  "tapu fini": {
+    "name": "Tapu Fini",
+    "dex": 788,
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "img": "data\\sprites\\788.png"
+  },
+  "cosmog": {
+    "name": "Cosmog",
+    "dex": 789,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\789.png"
+  },
+  "cosmoem": {
+    "name": "Cosmoem",
+    "dex": 790,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\790.png"
+  },
+  "solgaleo": {
+    "name": "Solgaleo",
+    "dex": 791,
+    "types": [
+      "psychic",
+      "steel"
+    ],
+    "img": "data\\sprites\\791.png"
+  },
+  "lunala": {
+    "name": "Lunala",
+    "dex": 792,
+    "types": [
+      "psychic",
+      "ghost"
+    ],
+    "img": "data\\sprites\\792.png"
+  },
+  "nihilego": {
+    "name": "Nihilego",
+    "dex": 793,
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "img": "data\\sprites\\793.png"
+  },
+  "buzzwole": {
+    "name": "Buzzwole",
+    "dex": 794,
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "img": "data\\sprites\\794.png"
+  },
+  "pheromosa": {
+    "name": "Pheromosa",
+    "dex": 795,
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "img": "data\\sprites\\795.png"
+  },
+  "xurkitree": {
+    "name": "Xurkitree",
+    "dex": 796,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\796.png"
+  },
+  "celesteela": {
+    "name": "Celesteela",
+    "dex": 797,
+    "types": [
+      "steel",
+      "flying"
+    ],
+    "img": "data\\sprites\\797.png"
+  },
+  "kartana": {
+    "name": "Kartana",
+    "dex": 798,
+    "types": [
+      "grass",
+      "steel"
+    ],
+    "img": "data\\sprites\\798.png"
+  },
+  "guzzlord": {
+    "name": "Guzzlord",
+    "dex": 799,
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "img": "data\\sprites\\799.png"
+  },
+  "necrozma": {
+    "name": "Necrozma",
+    "dex": 800,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\800.png"
+  },
+  "magearna": {
+    "name": "Magearna",
+    "dex": 801,
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "img": "data\\sprites\\801.png"
+  },
+  "marshadow": {
+    "name": "Marshadow",
+    "dex": 802,
+    "types": [
+      "fighting",
+      "ghost"
+    ],
+    "img": "data\\sprites\\802.png"
+  },
+  "poipole": {
+    "name": "Poipole",
+    "dex": 803,
+    "types": [
+      "poison"
+    ],
+    "img": "data\\sprites\\803.png"
+  },
+  "naganadel": {
+    "name": "Naganadel",
+    "dex": 804,
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "img": "data\\sprites\\804.png"
+  },
+  "stakataka": {
+    "name": "Stakataka",
+    "dex": 805,
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "img": "data\\sprites\\805.png"
+  },
+  "blacephalon": {
+    "name": "Blacephalon",
+    "dex": 806,
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "img": "data\\sprites\\806.png"
+  },
+  "zeraora": {
+    "name": "Zeraora",
+    "dex": 807,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\807.png"
+  },
+  "meltan": {
+    "name": "Meltan",
+    "dex": 808,
+    "types": [
+      "steel"
+    ],
+    "img": "data\\sprites\\808.png"
+  },
+  "melmetal": {
+    "name": "Melmetal",
+    "dex": 809,
+    "types": [
+      "steel"
+    ],
+    "img": "data\\sprites\\809.png"
+  },
+  "grookey": {
+    "name": "Grookey",
+    "dex": 810,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\810.png"
+  },
+  "thwackey": {
+    "name": "Thwackey",
+    "dex": 811,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\811.png"
+  },
+  "rillaboom": {
+    "name": "Rillaboom",
+    "dex": 812,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\812.png"
+  },
+  "scorbunny": {
+    "name": "Scorbunny",
+    "dex": 813,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\813.png"
+  },
+  "raboot": {
+    "name": "Raboot",
+    "dex": 814,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\814.png"
+  },
+  "cinderace": {
+    "name": "Cinderace",
+    "dex": 815,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\815.png"
+  },
+  "sobble": {
+    "name": "Sobble",
+    "dex": 816,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\816.png"
+  },
+  "drizzile": {
+    "name": "Drizzile",
+    "dex": 817,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\817.png"
+  },
+  "inteleon": {
+    "name": "Inteleon",
+    "dex": 818,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\818.png"
+  },
+  "skwovet": {
+    "name": "Skwovet",
+    "dex": 819,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\819.png"
+  },
+  "greedent": {
+    "name": "Greedent",
+    "dex": 820,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\820.png"
+  },
+  "rookidee": {
+    "name": "Rookidee",
+    "dex": 821,
+    "types": [
+      "flying"
+    ],
+    "img": "data\\sprites\\821.png"
+  },
+  "corvisquire": {
+    "name": "Corvisquire",
+    "dex": 822,
+    "types": [
+      "flying"
+    ],
+    "img": "data\\sprites\\822.png"
+  },
+  "corviknight": {
+    "name": "Corviknight",
+    "dex": 823,
+    "types": [
+      "flying",
+      "steel"
+    ],
+    "img": "data\\sprites\\823.png"
+  },
+  "blipbug": {
+    "name": "Blipbug",
+    "dex": 824,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\824.png"
+  },
+  "dottler": {
+    "name": "Dottler",
+    "dex": 825,
+    "types": [
+      "bug",
+      "psychic"
+    ],
+    "img": "data\\sprites\\825.png"
+  },
+  "orbeetle": {
+    "name": "Orbeetle",
+    "dex": 826,
+    "types": [
+      "bug",
+      "psychic"
+    ],
+    "img": "data\\sprites\\826.png"
+  },
+  "nickit": {
+    "name": "Nickit",
+    "dex": 827,
+    "types": [
+      "dark"
+    ],
+    "img": "data\\sprites\\827.png"
+  },
+  "thievul": {
+    "name": "Thievul",
+    "dex": 828,
+    "types": [
+      "dark"
+    ],
+    "img": "data\\sprites\\828.png"
+  },
+  "gossifleur": {
+    "name": "Gossifleur",
+    "dex": 829,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\829.png"
+  },
+  "eldegoss": {
+    "name": "Eldegoss",
+    "dex": 830,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\830.png"
+  },
+  "wooloo": {
+    "name": "Wooloo",
+    "dex": 831,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\831.png"
+  },
+  "dubwool": {
+    "name": "Dubwool",
+    "dex": 832,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\832.png"
+  },
+  "chewtle": {
+    "name": "Chewtle",
+    "dex": 833,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\833.png"
+  },
+  "drednaw": {
+    "name": "Drednaw",
+    "dex": 834,
+    "types": [
+      "water",
+      "rock"
+    ],
+    "img": "data\\sprites\\834.png"
+  },
+  "yamper": {
+    "name": "Yamper",
+    "dex": 835,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\835.png"
+  },
+  "boltund": {
+    "name": "Boltund",
+    "dex": 836,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\836.png"
+  },
+  "rolycoly": {
+    "name": "Rolycoly",
+    "dex": 837,
+    "types": [
+      "rock"
+    ],
+    "img": "data\\sprites\\837.png"
+  },
+  "carkol": {
+    "name": "Carkol",
+    "dex": 838,
+    "types": [
+      "rock",
+      "fire"
+    ],
+    "img": "data\\sprites\\838.png"
+  },
+  "coalossal": {
+    "name": "Coalossal",
+    "dex": 839,
+    "types": [
+      "rock",
+      "fire"
+    ],
+    "img": "data\\sprites\\839.png"
+  },
+  "applin": {
+    "name": "Applin",
+    "dex": 840,
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "img": "data\\sprites\\840.png"
+  },
+  "flapple": {
+    "name": "Flapple",
+    "dex": 841,
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "img": "data\\sprites\\841.png"
+  },
+  "appletun": {
+    "name": "Appletun",
+    "dex": 842,
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "img": "data\\sprites\\842.png"
+  },
+  "silicobra": {
+    "name": "Silicobra",
+    "dex": 843,
+    "types": [
+      "ground"
+    ],
+    "img": "data\\sprites\\843.png"
+  },
+  "sandaconda": {
+    "name": "Sandaconda",
+    "dex": 844,
+    "types": [
+      "ground"
+    ],
+    "img": "data\\sprites\\844.png"
+  },
+  "cramorant": {
+    "name": "Cramorant",
+    "dex": 845,
+    "types": [
+      "flying",
+      "water"
+    ],
+    "img": "data\\sprites\\845.png"
+  },
+  "arrokuda": {
+    "name": "Arrokuda",
+    "dex": 846,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\846.png"
+  },
+  "barraskewda": {
+    "name": "Barraskewda",
+    "dex": 847,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\847.png"
+  },
+  "toxel": {
+    "name": "Toxel",
+    "dex": 848,
+    "types": [
+      "electric",
+      "poison"
+    ],
+    "img": "data\\sprites\\848.png"
+  },
+  "toxtricity": {
+    "name": "Toxtricity",
+    "dex": 849,
+    "types": [
+      "electric",
+      "poison"
+    ],
+    "img": "data\\sprites\\849.png"
+  },
+  "sizzlipede": {
+    "name": "Sizzlipede",
+    "dex": 850,
+    "types": [
+      "fire",
+      "bug"
+    ],
+    "img": "data\\sprites\\850.png"
+  },
+  "centiskorch": {
+    "name": "Centiskorch",
+    "dex": 851,
+    "types": [
+      "fire",
+      "bug"
+    ],
+    "img": "data\\sprites\\851.png"
+  },
+  "clobbopus": {
+    "name": "Clobbopus",
+    "dex": 852,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\852.png"
+  },
+  "grapploct": {
+    "name": "Grapploct",
+    "dex": 853,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\853.png"
+  },
+  "sinistea": {
+    "name": "Sinistea",
+    "dex": 854,
+    "types": [
+      "ghost"
+    ],
+    "img": "data\\sprites\\854.png"
+  },
+  "polteageist": {
+    "name": "Polteageist",
+    "dex": 855,
+    "types": [
+      "ghost"
+    ],
+    "img": "data\\sprites\\855.png"
+  },
+  "hatenna": {
+    "name": "Hatenna",
+    "dex": 856,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\856.png"
+  },
+  "hattrem": {
+    "name": "Hattrem",
+    "dex": 857,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\857.png"
+  },
+  "hatterene": {
+    "name": "Hatterene",
+    "dex": 858,
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "img": "data\\sprites\\858.png"
+  },
+  "impidimp": {
+    "name": "Impidimp",
+    "dex": 859,
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "img": "data\\sprites\\859.png"
+  },
+  "morgrem": {
+    "name": "Morgrem",
+    "dex": 860,
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "img": "data\\sprites\\860.png"
+  },
+  "grimmsnarl": {
+    "name": "Grimmsnarl",
+    "dex": 861,
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "img": "data\\sprites\\861.png"
+  },
+  "obstagoon": {
+    "name": "Obstagoon",
+    "dex": 862,
+    "types": [
+      "dark",
+      "normal"
+    ],
+    "img": "data\\sprites\\862.png"
+  },
+  "perrserker": {
+    "name": "Perrserker",
+    "dex": 863,
+    "types": [
+      "steel"
+    ],
+    "img": "data\\sprites\\863.png"
+  },
+  "cursola": {
+    "name": "Cursola",
+    "dex": 864,
+    "types": [
+      "ghost"
+    ],
+    "img": "data\\sprites\\864.png"
+  },
+  "sirfetch'd": {
+    "name": "Sirfetch'd",
+    "dex": 865,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\865.png"
+  },
+  "mr. rime": {
+    "name": "Mr. Rime",
+    "dex": 866,
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "img": "data\\sprites\\866.png"
+  },
+  "runerigus": {
+    "name": "Runerigus",
+    "dex": 867,
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "img": "data\\sprites\\867.png"
+  },
+  "milcery": {
+    "name": "Milcery",
+    "dex": 868,
+    "types": [
+      "fairy"
+    ],
+    "img": "data\\sprites\\868.png"
+  },
+  "alcremie": {
+    "name": "Alcremie",
+    "dex": 869,
+    "types": [
+      "fairy"
+    ],
+    "img": "data\\sprites\\869.png"
+  },
+  "falinks": {
+    "name": "Falinks",
+    "dex": 870,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\870.png"
+  },
+  "pincurchin": {
+    "name": "Pincurchin",
+    "dex": 871,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\871.png"
+  },
+  "snom": {
+    "name": "Snom",
+    "dex": 872,
+    "types": [
+      "ice",
+      "bug"
+    ],
+    "img": "data\\sprites\\872.png"
+  },
+  "frosmoth": {
+    "name": "Frosmoth",
+    "dex": 873,
+    "types": [
+      "ice",
+      "bug"
+    ],
+    "img": "data\\sprites\\873.png"
+  },
+  "stonjourner": {
+    "name": "Stonjourner",
+    "dex": 874,
+    "types": [
+      "rock"
+    ],
+    "img": "data\\sprites\\874.png"
+  },
+  "eiscue": {
+    "name": "Eiscue",
+    "dex": 875,
+    "types": [
+      "ice"
+    ],
+    "img": "data\\sprites\\875.png"
+  },
+  "indeedee": {
+    "name": "Indeedee",
+    "dex": 876,
+    "types": [
+      "psychic",
+      "normal"
+    ],
+    "img": "data\\sprites\\876.png"
+  },
+  "morpeko": {
+    "name": "Morpeko",
+    "dex": 877,
+    "types": [
+      "electric",
+      "dark"
+    ],
+    "img": "data\\sprites\\877.png"
+  },
+  "cufant": {
+    "name": "Cufant",
+    "dex": 878,
+    "types": [
+      "steel"
+    ],
+    "img": "data\\sprites\\878.png"
+  },
+  "copperajah": {
+    "name": "Copperajah",
+    "dex": 879,
+    "types": [
+      "steel"
+    ],
+    "img": "data\\sprites\\879.png"
+  },
+  "dracozolt": {
+    "name": "Dracozolt",
+    "dex": 880,
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "img": "data\\sprites\\880.png"
+  },
+  "arctozolt": {
+    "name": "Arctozolt",
+    "dex": 881,
+    "types": [
+      "electric",
+      "ice"
+    ],
+    "img": "data\\sprites\\881.png"
+  },
+  "dracovish": {
+    "name": "Dracovish",
+    "dex": 882,
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "img": "data\\sprites\\882.png"
+  },
+  "arctovish": {
+    "name": "Arctovish",
+    "dex": 883,
+    "types": [
+      "water",
+      "ice"
+    ],
+    "img": "data\\sprites\\883.png"
+  },
+  "duraludon": {
+    "name": "Duraludon",
+    "dex": 884,
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "img": "data\\sprites\\884.png"
+  },
+  "dreepy": {
+    "name": "Dreepy",
+    "dex": 885,
+    "types": [
+      "dragon",
+      "ghost"
+    ],
+    "img": "data\\sprites\\885.png"
+  },
+  "drakloak": {
+    "name": "Drakloak",
+    "dex": 886,
+    "types": [
+      "dragon",
+      "ghost"
+    ],
+    "img": "data\\sprites\\886.png"
+  },
+  "dragapult": {
+    "name": "Dragapult",
+    "dex": 887,
+    "types": [
+      "dragon",
+      "ghost"
+    ],
+    "img": "data\\sprites\\887.png"
+  },
+  "zacian": {
+    "name": "Zacian",
+    "dex": 888,
+    "types": [
+      "fairy"
+    ],
+    "img": "data\\sprites\\888.png"
+  },
+  "zamazenta": {
+    "name": "Zamazenta",
+    "dex": 889,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\889.png"
+  },
+  "eternatus": {
+    "name": "Eternatus",
+    "dex": 890,
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "img": "data\\sprites\\890.png"
+  },
+  "kubfu": {
+    "name": "Kubfu",
+    "dex": 891,
+    "types": [
+      "fighting"
+    ],
+    "img": "data\\sprites\\891.png"
+  },
+  "urshifu": {
+    "name": "Urshifu",
+    "dex": 892,
+    "types": [
+      "fighting",
+      "dark"
+    ],
+    "img": "data\\sprites\\892.png"
+  },
+  "zarude": {
+    "name": "Zarude",
+    "dex": 893,
+    "types": [
+      "dark",
+      "grass"
+    ],
+    "img": "data\\sprites\\893.png"
+  },
+  "regieleki": {
+    "name": "Regieleki",
+    "dex": 894,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\894.png"
+  },
+  "regidrago": {
+    "name": "Regidrago",
+    "dex": 895,
+    "types": [
+      "dragon"
+    ],
+    "img": "data\\sprites\\895.png"
+  },
+  "glastrier": {
+    "name": "Glastrier",
+    "dex": 896,
+    "types": [
+      "ice"
+    ],
+    "img": "data\\sprites\\896.png"
+  },
+  "spectrier": {
+    "name": "Spectrier",
+    "dex": 897,
+    "types": [
+      "ghost"
+    ],
+    "img": "data\\sprites\\897.png"
+  },
+  "calyrex": {
+    "name": "Calyrex",
+    "dex": 898,
+    "types": [
+      "psychic",
+      "grass"
+    ],
+    "img": "data\\sprites\\898.png"
+  },
+  "wyrdeer": {
+    "name": "Wyrdeer",
+    "dex": 899,
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "img": "data\\sprites\\899.png"
+  },
+  "kleavor": {
+    "name": "Kleavor",
+    "dex": 900,
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "img": "data\\sprites\\900.png"
+  },
+  "ursaluna": {
+    "name": "Ursaluna",
+    "dex": 901,
+    "types": [
+      "ground",
+      "normal"
+    ],
+    "img": "data\\sprites\\901.png"
+  },
+  "basculegion": {
+    "name": "Basculegion",
+    "dex": 902,
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "img": "data\\sprites\\902.png"
+  },
+  "sneasler": {
+    "name": "Sneasler",
+    "dex": 903,
+    "types": [
+      "fighting",
+      "poison"
+    ],
+    "img": "data\\sprites\\903.png"
+  },
+  "overqwil": {
+    "name": "Overqwil",
+    "dex": 904,
+    "types": [
+      "dark",
+      "poison"
+    ],
+    "img": "data\\sprites\\904.png"
+  },
+  "enamorus": {
+    "name": "Enamorus",
+    "dex": 905,
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "img": "data\\sprites\\905.png"
+  },
+  "sprigatito": {
+    "name": "Sprigatito",
+    "dex": 906,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\906.png"
+  },
+  "floragato": {
+    "name": "Floragato",
+    "dex": 907,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\907.png"
+  },
+  "meowscarada": {
+    "name": "Meowscarada",
+    "dex": 908,
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "img": "data\\sprites\\908.png"
+  },
+  "fuecoco": {
+    "name": "Fuecoco",
+    "dex": 909,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\909.png"
+  },
+  "crocalor": {
+    "name": "Crocalor",
+    "dex": 910,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\910.png"
+  },
+  "skeledirge": {
+    "name": "Skeledirge",
+    "dex": 911,
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "img": "data\\sprites\\911.png"
+  },
+  "quaxly": {
+    "name": "Quaxly",
+    "dex": 912,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\912.png"
+  },
+  "quaxwell": {
+    "name": "Quaxwell",
+    "dex": 913,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\913.png"
+  },
+  "quaquaval": {
+    "name": "Quaquaval",
+    "dex": 914,
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "img": "data\\sprites\\914.png"
+  },
+  "lechonk": {
+    "name": "Lechonk",
+    "dex": 915,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\915.png"
+  },
+  "oinkologne": {
+    "name": "Oinkologne",
+    "dex": 916,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\916.png"
+  },
+  "tarountula": {
+    "name": "Tarountula",
+    "dex": 917,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\917.png"
+  },
+  "spidops": {
+    "name": "Spidops",
+    "dex": 918,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\918.png"
+  },
+  "nymble": {
+    "name": "Nymble",
+    "dex": 919,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\919.png"
+  },
+  "lokix": {
+    "name": "Lokix",
+    "dex": 920,
+    "types": [
+      "bug",
+      "dark"
+    ],
+    "img": "data\\sprites\\920.png"
+  },
+  "pawmi": {
+    "name": "Pawmi",
+    "dex": 921,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\921.png"
+  },
+  "pawmo": {
+    "name": "Pawmo",
+    "dex": 922,
+    "types": [
+      "electric",
+      "fighting"
+    ],
+    "img": "data\\sprites\\922.png"
+  },
+  "pawmot": {
+    "name": "Pawmot",
+    "dex": 923,
+    "types": [
+      "electric",
+      "fighting"
+    ],
+    "img": "data\\sprites\\923.png"
+  },
+  "tandemaus": {
+    "name": "Tandemaus",
+    "dex": 924,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\924.png"
+  },
+  "maushold": {
+    "name": "Maushold",
+    "dex": 925,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\925.png"
+  },
+  "fidough": {
+    "name": "Fidough",
+    "dex": 926,
+    "types": [
+      "fairy"
+    ],
+    "img": "data\\sprites\\926.png"
+  },
+  "dachsbun": {
+    "name": "Dachsbun",
+    "dex": 927,
+    "types": [
+      "fairy"
+    ],
+    "img": "data\\sprites\\927.png"
+  },
+  "smoliv": {
+    "name": "Smoliv",
+    "dex": 928,
+    "types": [
+      "grass",
+      "normal"
+    ],
+    "img": "data\\sprites\\928.png"
+  },
+  "dolliv": {
+    "name": "Dolliv",
+    "dex": 929,
+    "types": [
+      "grass",
+      "normal"
+    ],
+    "img": "data\\sprites\\929.png"
+  },
+  "arboliva": {
+    "name": "Arboliva",
+    "dex": 930,
+    "types": [
+      "grass",
+      "normal"
+    ],
+    "img": "data\\sprites\\930.png"
+  },
+  "squawkabilly": {
+    "name": "Squawkabilly",
+    "dex": 931,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "img": "data\\sprites\\931.png"
+  },
+  "nacli": {
+    "name": "Nacli",
+    "dex": 932,
+    "types": [
+      "rock"
+    ],
+    "img": "data\\sprites\\932.png"
+  },
+  "naclstack": {
+    "name": "Naclstack",
+    "dex": 933,
+    "types": [
+      "rock"
+    ],
+    "img": "data\\sprites\\933.png"
+  },
+  "garganacl": {
+    "name": "Garganacl",
+    "dex": 934,
+    "types": [
+      "rock"
+    ],
+    "img": "data\\sprites\\934.png"
+  },
+  "charcadet": {
+    "name": "Charcadet",
+    "dex": 935,
+    "types": [
+      "fire"
+    ],
+    "img": "data\\sprites\\935.png"
+  },
+  "armarouge": {
+    "name": "Armarouge",
+    "dex": 936,
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "img": "data\\sprites\\936.png"
+  },
+  "ceruledge": {
+    "name": "Ceruledge",
+    "dex": 937,
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "img": "data\\sprites\\937.png"
+  },
+  "tadbulb": {
+    "name": "Tadbulb",
+    "dex": 938,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\938.png"
+  },
+  "bellibolt": {
+    "name": "Bellibolt",
+    "dex": 939,
+    "types": [
+      "electric"
+    ],
+    "img": "data\\sprites\\939.png"
+  },
+  "wattrel": {
+    "name": "Wattrel",
+    "dex": 940,
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "img": "data\\sprites\\940.png"
+  },
+  "kilowattrel": {
+    "name": "Kilowattrel",
+    "dex": 941,
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "img": "data\\sprites\\941.png"
+  },
+  "maschiff": {
+    "name": "Maschiff",
+    "dex": 942,
+    "types": [
+      "dark"
+    ],
+    "img": "data\\sprites\\942.png"
+  },
+  "mabosstiff": {
+    "name": "Mabosstiff",
+    "dex": 943,
+    "types": [
+      "dark"
+    ],
+    "img": "data\\sprites\\943.png"
+  },
+  "shroodle": {
+    "name": "Shroodle",
+    "dex": 944,
+    "types": [
+      "poison",
+      "normal"
+    ],
+    "img": "data\\sprites\\944.png"
+  },
+  "grafaiai": {
+    "name": "Grafaiai",
+    "dex": 945,
+    "types": [
+      "poison",
+      "normal"
+    ],
+    "img": "data\\sprites\\945.png"
+  },
+  "bramblin": {
+    "name": "Bramblin",
+    "dex": 946,
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "img": "data\\sprites\\946.png"
+  },
+  "brambleghast": {
+    "name": "Brambleghast",
+    "dex": 947,
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "img": "data\\sprites\\947.png"
+  },
+  "toedscool": {
+    "name": "Toedscool",
+    "dex": 948,
+    "types": [
+      "ground",
+      "grass"
+    ],
+    "img": "data\\sprites\\948.png"
+  },
+  "toedscruel": {
+    "name": "Toedscruel",
+    "dex": 949,
+    "types": [
+      "ground",
+      "grass"
+    ],
+    "img": "data\\sprites\\949.png"
+  },
+  "klawf": {
+    "name": "Klawf",
+    "dex": 950,
+    "types": [
+      "rock"
+    ],
+    "img": "data\\sprites\\950.png"
+  },
+  "capsakid": {
+    "name": "Capsakid",
+    "dex": 951,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\951.png"
+  },
+  "scovillain": {
+    "name": "Scovillain",
+    "dex": 952,
+    "types": [
+      "grass",
+      "fire"
+    ],
+    "img": "data\\sprites\\952.png"
+  },
+  "rellor": {
+    "name": "Rellor",
+    "dex": 953,
+    "types": [
+      "bug"
+    ],
+    "img": "data\\sprites\\953.png"
+  },
+  "rabsca": {
+    "name": "Rabsca",
+    "dex": 954,
+    "types": [
+      "bug",
+      "psychic"
+    ],
+    "img": "data\\sprites\\954.png"
+  },
+  "flittle": {
+    "name": "Flittle",
+    "dex": 955,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\955.png"
+  },
+  "espathra": {
+    "name": "Espathra",
+    "dex": 956,
+    "types": [
+      "psychic"
+    ],
+    "img": "data\\sprites\\956.png"
+  },
+  "tinkatink": {
+    "name": "Tinkatink",
+    "dex": 957,
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "img": "data\\sprites\\957.png"
+  },
+  "tinkatuff": {
+    "name": "Tinkatuff",
+    "dex": 958,
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "img": "data\\sprites\\958.png"
+  },
+  "tinkaton": {
+    "name": "Tinkaton",
+    "dex": 959,
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "img": "data\\sprites\\959.png"
+  },
+  "wiglett": {
+    "name": "Wiglett",
+    "dex": 960,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\960.png"
+  },
+  "wugtrio": {
+    "name": "Wugtrio",
+    "dex": 961,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\961.png"
+  },
+  "bombirdier": {
+    "name": "Bombirdier",
+    "dex": 962,
+    "types": [
+      "flying",
+      "dark"
+    ],
+    "img": "data\\sprites\\962.png"
+  },
+  "finizen": {
+    "name": "Finizen",
+    "dex": 963,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\963.png"
+  },
+  "palafin": {
+    "name": "Palafin",
+    "dex": 964,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\964.png"
+  },
+  "varoom": {
+    "name": "Varoom",
+    "dex": 965,
+    "types": [
+      "steel",
+      "poison"
+    ],
+    "img": "data\\sprites\\965.png"
+  },
+  "revavroom": {
+    "name": "Revavroom",
+    "dex": 966,
+    "types": [
+      "steel",
+      "poison"
+    ],
+    "img": "data\\sprites\\966.png"
+  },
+  "cyclizar": {
+    "name": "Cyclizar",
+    "dex": 967,
+    "types": [
+      "dragon",
+      "normal"
+    ],
+    "img": "data\\sprites\\967.png"
+  },
+  "orthworm": {
+    "name": "Orthworm",
+    "dex": 968,
+    "types": [
+      "steel"
+    ],
+    "img": "data\\sprites\\968.png"
+  },
+  "glimmet": {
+    "name": "Glimmet",
+    "dex": 969,
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "img": "data\\sprites\\969.png"
+  },
+  "glimmora": {
+    "name": "Glimmora",
+    "dex": 970,
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "img": "data\\sprites\\970.png"
+  },
+  "greavard": {
+    "name": "Greavard",
+    "dex": 971,
+    "types": [
+      "ghost"
+    ],
+    "img": "data\\sprites\\971.png"
+  },
+  "houndstone": {
+    "name": "Houndstone",
+    "dex": 972,
+    "types": [
+      "ghost"
+    ],
+    "img": "data\\sprites\\972.png"
+  },
+  "flamigo": {
+    "name": "Flamigo",
+    "dex": 973,
+    "types": [
+      "flying",
+      "fighting"
+    ],
+    "img": "data\\sprites\\973.png"
+  },
+  "cetoddle": {
+    "name": "Cetoddle",
+    "dex": 974,
+    "types": [
+      "ice"
+    ],
+    "img": "data\\sprites\\974.png"
+  },
+  "cetitan": {
+    "name": "Cetitan",
+    "dex": 975,
+    "types": [
+      "ice"
+    ],
+    "img": "data\\sprites\\975.png"
+  },
+  "veluza": {
+    "name": "Veluza",
+    "dex": 976,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "img": "data\\sprites\\976.png"
+  },
+  "dondozo": {
+    "name": "Dondozo",
+    "dex": 977,
+    "types": [
+      "water"
+    ],
+    "img": "data\\sprites\\977.png"
+  },
+  "tatsugiri": {
+    "name": "Tatsugiri",
+    "dex": 978,
+    "types": [
+      "dragon",
+      "water"
+    ],
+    "img": "data\\sprites\\978.png"
+  },
+  "annihilape": {
+    "name": "Annihilape",
+    "dex": 979,
+    "types": [
+      "fighting",
+      "ghost"
+    ],
+    "img": "data\\sprites\\979.png"
+  },
+  "clodsire": {
+    "name": "Clodsire",
+    "dex": 980,
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "img": "data\\sprites\\980.png"
+  },
+  "farigiraf": {
+    "name": "Farigiraf",
+    "dex": 981,
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "img": "data\\sprites\\981.png"
+  },
+  "dudunsparce": {
+    "name": "Dudunsparce",
+    "dex": 982,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\982.png"
+  },
+  "kingambit": {
+    "name": "Kingambit",
+    "dex": 983,
+    "types": [
+      "dark",
+      "steel"
+    ],
+    "img": "data\\sprites\\983.png"
+  },
+  "great tusk": {
+    "name": "Great Tusk",
+    "dex": 984,
+    "types": [
+      "ground",
+      "fighting"
+    ],
+    "img": "data\\sprites\\984.png"
+  },
+  "scream tail": {
+    "name": "Scream Tail",
+    "dex": 985,
+    "types": [
+      "fairy",
+      "psychic"
+    ],
+    "img": "data\\sprites\\985.png"
+  },
+  "brute bonnet": {
+    "name": "Brute Bonnet",
+    "dex": 986,
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "img": "data\\sprites\\986.png"
+  },
+  "flutter mane": {
+    "name": "Flutter Mane",
+    "dex": 987,
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "img": "data\\sprites\\987.png"
+  },
+  "slither wing": {
+    "name": "Slither Wing",
+    "dex": 988,
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "img": "data\\sprites\\988.png"
+  },
+  "sandy shocks": {
+    "name": "Sandy Shocks",
+    "dex": 989,
+    "types": [
+      "electric",
+      "ground"
+    ],
+    "img": "data\\sprites\\989.png"
+  },
+  "iron treads": {
+    "name": "Iron Treads",
+    "dex": 990,
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "img": "data\\sprites\\990.png"
+  },
+  "iron bundle": {
+    "name": "Iron Bundle",
+    "dex": 991,
+    "types": [
+      "ice",
+      "water"
+    ],
+    "img": "data\\sprites\\991.png"
+  },
+  "iron hands": {
+    "name": "Iron Hands",
+    "dex": 992,
+    "types": [
+      "fighting",
+      "electric"
+    ],
+    "img": "data\\sprites\\992.png"
+  },
+  "iron jugulis": {
+    "name": "Iron Jugulis",
+    "dex": 993,
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "img": "data\\sprites\\993.png"
+  },
+  "iron moth": {
+    "name": "Iron Moth",
+    "dex": 994,
+    "types": [
+      "fire",
+      "poison"
+    ],
+    "img": "data\\sprites\\994.png"
+  },
+  "iron thorns": {
+    "name": "Iron Thorns",
+    "dex": 995,
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "img": "data\\sprites\\995.png"
+  },
+  "frigibax": {
+    "name": "Frigibax",
+    "dex": 996,
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "img": "data\\sprites\\996.png"
+  },
+  "arctibax": {
+    "name": "Arctibax",
+    "dex": 997,
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "img": "data\\sprites\\997.png"
+  },
+  "baxcalibur": {
+    "name": "Baxcalibur",
+    "dex": 998,
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "img": "data\\sprites\\998.png"
+  },
+  "gimmighoul": {
+    "name": "Gimmighoul",
+    "dex": 999,
+    "types": [
+      "ghost"
+    ],
+    "img": "data\\sprites\\999.png"
+  },
+  "gholdengo": {
+    "name": "Gholdengo",
+    "dex": 1000,
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "img": "data\\sprites\\1000.png"
+  },
+  "wo-chien": {
+    "name": "Wo-Chien",
+    "dex": 1001,
+    "types": [
+      "dark",
+      "grass"
+    ],
+    "img": "data\\sprites\\1001.png"
+  },
+  "chien-pao": {
+    "name": "Chien-Pao",
+    "dex": 1002,
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "img": "data\\sprites\\1002.png"
+  },
+  "ting-lu": {
+    "name": "Ting-Lu",
+    "dex": 1003,
+    "types": [
+      "dark",
+      "ground"
+    ],
+    "img": "data\\sprites\\1003.png"
+  },
+  "chi-yu": {
+    "name": "Chi-Yu",
+    "dex": 1004,
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "img": "data\\sprites\\1004.png"
+  },
+  "roaring moon": {
+    "name": "Roaring Moon",
+    "dex": 1005,
+    "types": [
+      "dragon",
+      "dark"
+    ],
+    "img": "data\\sprites\\1005.png"
+  },
+  "iron valiant": {
+    "name": "Iron Valiant",
+    "dex": 1006,
+    "types": [
+      "fairy",
+      "fighting"
+    ],
+    "img": "data\\sprites\\1006.png"
+  },
+  "koraidon": {
+    "name": "Koraidon",
+    "dex": 1007,
+    "types": [
+      "fighting",
+      "dragon"
+    ],
+    "img": "data\\sprites\\1007.png"
+  },
+  "miraidon": {
+    "name": "Miraidon",
+    "dex": 1008,
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "img": "data\\sprites\\1008.png"
+  },
+  "walking wake": {
+    "name": "Walking Wake",
+    "dex": 1009,
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "img": "data\\sprites\\1009.png"
+  },
+  "iron leaves": {
+    "name": "Iron Leaves",
+    "dex": 1010,
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "img": "data\\sprites\\1010.png"
+  },
+  "dipplin": {
+    "name": "Dipplin",
+    "dex": 1011,
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "img": "data\\sprites\\1011.png"
+  },
+  "poltchageist": {
+    "name": "Poltchageist",
+    "dex": 1012,
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "img": "data\\sprites\\1012.png"
+  },
+  "sinistcha": {
+    "name": "Sinistcha",
+    "dex": 1013,
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "img": "data\\sprites\\1013.png"
+  },
+  "okidogi": {
+    "name": "Okidogi",
+    "dex": 1014,
+    "types": [
+      "poison",
+      "fighting"
+    ],
+    "img": "data\\sprites\\1014.png"
+  },
+  "munkidori": {
+    "name": "Munkidori",
+    "dex": 1015,
+    "types": [
+      "poison",
+      "psychic"
+    ],
+    "img": "data\\sprites\\1015.png"
+  },
+  "fezandipiti": {
+    "name": "Fezandipiti",
+    "dex": 1016,
+    "types": [
+      "poison",
+      "fairy"
+    ],
+    "img": "data\\sprites\\1016.png"
+  },
+  "ogerpon": {
+    "name": "Ogerpon",
+    "dex": 1017,
+    "types": [
+      "grass"
+    ],
+    "img": "data\\sprites\\1017.png"
+  },
+  "archaludon": {
+    "name": "Archaludon",
+    "dex": 1018,
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "img": "data\\sprites\\1018.png"
+  },
+  "hydrapple": {
+    "name": "Hydrapple",
+    "dex": 1019,
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "img": "data\\sprites\\1019.png"
+  },
+  "gouging fire": {
+    "name": "Gouging Fire",
+    "dex": 1020,
+    "types": [
+      "fire",
+      "dragon"
+    ],
+    "img": "data\\sprites\\1020.png"
+  },
+  "raging bolt": {
+    "name": "Raging Bolt",
+    "dex": 1021,
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "img": "data\\sprites\\1021.png"
+  },
+  "iron boulder": {
+    "name": "Iron Boulder",
+    "dex": 1022,
+    "types": [
+      "rock",
+      "psychic"
+    ],
+    "img": "data\\sprites\\1022.png"
+  },
+  "iron crown": {
+    "name": "Iron Crown",
+    "dex": 1023,
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "img": "data\\sprites\\1023.png"
+  },
+  "terapagos": {
+    "name": "Terapagos",
+    "dex": 1024,
+    "types": [
+      "normal"
+    ],
+    "img": "data\\sprites\\1024.png"
+  },
+  "pecharunt": {
+    "name": "Pecharunt",
+    "dex": 1025,
+    "types": [
+      "poison",
+      "ghost"
+    ],
+    "img": "data\\sprites\\1025.png"
+  }
+}
